@@ -2,7 +2,7 @@ import { GitHubIcon, WebIcon } from '@assets/icons'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export function CardProject({ title, img, labels, url, repo, description= '' }) {
+export function CardProject({ title, img, labels, url, repo, description = '' }) {
   return (
     <>
       <article className='relative flex max-w-xs flex-col gap-4 rounded-md border-2 border-secondary-500 pb-14 p-6 hover:bg-secondary-600 hover:bg-opacity-20'>
