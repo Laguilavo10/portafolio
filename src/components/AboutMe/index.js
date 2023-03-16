@@ -5,9 +5,9 @@ import cara from '../../../public/cara.jpg'
 export function AboutMe() {
   return (
     <>
-      <section className='pt-12' id='about'>
-        <main className='flex gap-16'>
-          <Image src={cara.src} width='300' height='300'/>
+      {/* <section className='pt-12' id='about'> */}
+        <section className='pt-12 flex gap-16 flex-col md:flex-row items-center' id='about'>
+          <Image src={cara.src} width='300' height='300' className='rounded-lg'/>
           <div className='flex flex-col items-center gap-12'>
             <TitleSection>About Me</TitleSection>
             <p>
@@ -19,8 +19,8 @@ export function AboutMe() {
               que me permitan seguir aprendiendo y creciendo en mi carrera.
             </p>
           </div>
-        </main>
-      </section>
+        </section>
+      {/* </section> */}
     </>
   )
 }

@@ -14,6 +14,7 @@ export function Contact() {
         <div className='flex gap-16 justify-center'>
           <LinkCustom
             href={'https://www.linkedin.com/in/andres-laguilavo-2a2848205/'}
+            styles='flex-col sm:flex-row'
           >
             <LinkedinIcon width='80' height='80' />
             <p>LinkedIn</p>
@@ -22,6 +23,7 @@ export function Contact() {
             href={
               'mailto:andresfelipelaguilavo@hotmail.com?subject=¡Trabajemos Juntos!'
             }
+            styles='flex-col sm:flex-row'
           >
             <EmailIcon width='80' height='80' />
             <p>Email</p>
