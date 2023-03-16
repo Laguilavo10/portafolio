@@ -34,9 +34,9 @@ export function Skills() {
   ]
   return (
     <>
-      <section id='skills'>
+      <section id='skills' className='pt-12'>
         <TitleSection>TechStack</TitleSection>
-        <ul className='flex justify-evenly my-10'>
+        <ul className='grid justify-evenly my-10 grid-cols-5 gap-4'>
           {Stack.map(({ name, icon }) => (
             <li key={name} className='flex flex-col items-center gap-2 hover:scale-125 transition-all duration-100 ease-out'>
               {icon}

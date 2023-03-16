@@ -5,7 +5,7 @@ import cara from '../../../public/cara.jpg'
 export function AboutMe() {
   return (
     <>
-      <section className='' id='about'>
+      <section className='pt-12' id='about'>
         <main className='flex gap-16'>
           <Image src={cara.src} width='300' height='300'/>
           <div className='flex flex-col items-center gap-12'>
