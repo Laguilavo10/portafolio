@@ -2,10 +2,10 @@ import { GitHubIcon, WebIcon } from '@assets/icons'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export function CardProject({ title, img, labels, url, repo, description }) {
+export function CardProject({ title, img, labels, url, repo, description= '' }) {
   return (
     <>
-      <article className='relative flex max-w-xs flex-col gap-4 rounded-md border-2 border-secondary-500 p-6 hover:bg-secondary-600 hover:bg-opacity-20'>
+      <article className='relative flex max-w-xs flex-col gap-4 rounded-md border-2 border-secondary-500 pb-14 p-6 hover:bg-secondary-600 hover:bg-opacity-20'>
         <h4 className='text-white'>{title}</h4>
         {/* Imagen */}
         <Image
@@ -24,13 +24,10 @@ export function CardProject({ title, img, labels, url, repo, description }) {
         </ul>
         {/* Descripcion */}
         <p className='text-sm'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-          doloribus fuga commodi, ipsam, consequuntur suscipit tempora nam
-          recusandae exercitationem saepe blanditiis nemo, soluta sit ipsa ab
-          accusamus iste eum quia?
+            {description}
         </p>
         {/* Links */}
-        <div className='flex justify-end gap-5'>
+        <div className='flex bottom-5 right-6 gap-5 self absolute'>
           <Link
             target={'_blank'}
             href={repo}
