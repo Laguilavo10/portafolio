@@ -6,10 +6,10 @@ export function TopBar() {
         <nav className='flex items-center justify-between py-2 px-4 bg-transparent backdrop-blur-[20px]'>
           <p className='text-xl hidden sm:flex'>Andres Laguilavo</p>
           <ul className='flex gap-8 justify-center w-full sm:w-auto '>
-            <li><a href='#about'>About</a></li>
-            <li><a href='#skills'>Skills</a></li>
-            <li><a href='#projects'>Projects</a></li>
-            <li><a href='#contact'>Contact</a></li>
+            <li><a href='#about'>Sobre Mi</a></li>
+            <li><a href='#skills'>Habilidades</a></li>
+            <li><a href='#projects'>Proyectos</a></li>
+            <li><a href='#contact'>Contacto</a></li>
           </ul>
         </nav>
       </header>

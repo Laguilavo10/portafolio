@@ -9,7 +9,7 @@ export function AboutMe() {
         <section className='pt-12 flex gap-16 flex-col md:flex-row items-center' id='about'>
           <Image src={cara.src} width='300' height='300' className='rounded-lg'/>
           <div className='flex flex-col items-center gap-12'>
-            <TitleSection>About Me</TitleSection>
+            <TitleSection>Sobre Mi</TitleSection>
             <p>
               Soy un apasionado de la tecnología y el desarrollo web, siempre
               buscando nuevas formas de crear experiencias digitales únicas y

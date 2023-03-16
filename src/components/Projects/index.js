@@ -55,7 +55,7 @@ export function Projects() {
   return (
     <>
       <section id='projects' className='pt-12'>
-        <TitleSection>Projects</TitleSection>
+        <TitleSection>Proyectos</TitleSection>
         <section className='flex flex-wrap justify-center gap-9 mt-8'>
           {Projects.map(({ title, img, labels, url, repo, description }) => (
             <CardProject
