@@ -1,5 +1,6 @@
 import { AboutMe } from '@components/AboutMe'
 import { Profile } from '@components/Profile'
+import { Skills } from '@components/Skills'
 import { TopBar } from '@components/TopBar'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <TopBar />
       <Profile />
       <AboutMe/>
+      <Skills/>
     </main>
   )
 }

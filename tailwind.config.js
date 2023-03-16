@@ -37,10 +37,6 @@ module.exports = {
           800: '#1a1231',
           900: '#120c24'
         }
-      },
-      backgroundColor: {
-        uwu:
-          'linear-gradient(90deg,rgba(166,168,176,1),rgba(49,35,94,1))'
       }
     }
   },
