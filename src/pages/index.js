@@ -1,4 +1,5 @@
 import { AboutMe } from '@components/AboutMe'
+import { Contact } from '@components/Contact'
 import { Profile } from '@components/Profile'
 import { Projects } from '@components/Projects'
 import { Skills } from '@components/Skills'
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutMe/>
       <Skills/>
       <Projects/>
+      <Contact/>
     </main>
   )
 }
