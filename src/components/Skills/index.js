@@ -3,6 +3,7 @@ import {
   GitIcon,
   HtmlIcon,
   JavascriptIcon,
+  NextjsIcon,
   ReactIcon,
   TailwindIcon,
   TypescriptIcon
@@ -38,6 +39,10 @@ export function Skills() {
     {
       name: 'Git',
       icon: <GitIcon height='70' width='70' />
+    },
+    {
+      name: 'NextJS',
+      icon: <NextjsIcon height='70' width='70' />
     }
   ]
   return (
