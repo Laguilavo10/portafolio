@@ -16,7 +16,7 @@ export function Projects() {
       repo: 'https://github.com/Laguilavo10/gestor-de-gastos',
       url: 'https://laguilavo10.github.io/gestor-de-gastos/',
       description:
-        'Sistema de gestor de gastos hecho en React y que utiliza localStorage para almacenar los datos del usuario en su dispositivo local.Herramienta para ayudar a los usuarios a administrar sus finanzas personales y hacer un seguimiento de sus gastos diarios.'
+        'Sistema de gestor de gastos hecho en React y que utiliza localStorage para almacenar los datos del usuario en su dispositivo local. Herramienta para ayudar a los usuarios a administrar sus finanzas personales y hacer un seguimiento de sus gastos diarios.'
     },
     {
       title: 'Cinema Data',
@@ -25,7 +25,7 @@ export function Projects() {
       repo: 'https://github.com/Laguilavo10/WebMovies',
       url: 'https://laguilavo10.github.io/WebMovies/',
       description:
-        'Plataforma para explorar películas, los usuarios pueden encontrar una amplia selección de películas organizadas por género, tendencias, ademas. Proyecto usando React y la API de The Movie Database'
+        'Plataforma para explorar películas, los usuarios pueden encontrar una amplia selección de películas organizadas por género, tendencias, ademas. Proyecto usando React y la API de The Movie Database.'
     },
     {
       title: 'Pokedex',
@@ -34,7 +34,7 @@ export function Projects() {
       repo: 'https://github.com/Laguilavo10/pokedex-kanto',
       url: 'https://laguilavo10.github.io/pokedex-kanto/',
       description:
-        'Pokedex hecha en React que utiliza la PokeAPI para mostrar información detallada sobre cada Pokemon en un diseño fiel al de la pokedex de primera generación.La navegacion  funciona dando click a las flechas del pokedex'
+        'Pokedex hecha en React que utiliza la PokeAPI para mostrar información detallada sobre cada Pokemon en un diseño fiel al pokedex original de primera generación. La navegacion  funciona dando click a las flechas del pokedex.'
     },
     {
       title: 'Periodic Table',
@@ -43,7 +43,7 @@ export function Projects() {
       repo: 'https://github.com/Laguilavo10/periodic-table/',
       url: 'https://laguilavo10.github.io/periodic-table/',
       description:
-        'Tabla periódica interactiva que muestra información detallada de los elementos químicos obtenidos a través de una API. Está construido con el framework React y ofrece una experiencia de usuario intuitiva y atractiva. Al igual, funciona correctamente en mobile'
+        'Tabla periódica interactiva que muestra información detallada de los elementos químicos obtenidos a través de una API. Está construido con el framework React y ofrece una experiencia de usuario intuitiva y atractiva. Al igual, con una correcta funcionalidad en mobile.'
     },
     {
       title: 'PassWord Generator',
@@ -61,7 +61,7 @@ export function Projects() {
       repo: 'https://github.com/Laguilavo10/clon-Instagram',
       url: 'https://laguilavo10.github.io/clon-Instagram/',
       description:
-        'Clon del login de Instagram hecho para el reto #PLATZICHALLENGE. Fue construido con HTMLY  CSS  ofrece una interfaz de usuario similar a la original de Instagram para que los usuarios se sientan familiarizados. Fue realizada con la intencion de practicar las habilidades de maquetación WEB'
+        'Clon del login de Instagram hecho para el reto #PLATZICHALLENGE. Fue construido con HTML y CSS,  ofrece una interfaz UI similar a la original de Instagraml. Fue realizada con la intencion de practicar las habilidades de maquetación WEB.'
     }
   ]
   return (
