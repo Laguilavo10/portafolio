@@ -6,9 +6,15 @@ export function AboutMe() {
   return (
     <>
       {/* <section className='pt-12' id='about'> */}
-        <section className='pt-12 flex gap-16 flex-col md:flex-row items-center' id='about'>
-          <Image src={cara.src} width='300' height='300' className='rounded-lg'/>
-          <div className='flex flex-col items-center gap-12'>
+      <section id='about' className='lg:pt-24 pt-10 m-auto'>
+        <div className='relative flex flex-col items-center gap-4 rounded-md p-10 md:grid-cols-5 lg:grid lg:bg-secondary-800 max-w-[1200px] '>
+          <Image
+            src={cara.src}
+            width='340'
+            height='300'
+            className='rounded-lg lg:absolute lg:left-10'
+          />
+          <div className='col-span-4 col-start-3 flex flex-col items-center gap-2'>
             <TitleSection>Sobre Mi</TitleSection>
             <p>
               Soy un apasionado de la tecnología y el desarrollo web, siempre
@@ -19,7 +25,8 @@ export function AboutMe() {
               que me permitan seguir aprendiendo y creciendo en mi carrera.
             </p>
           </div>
-        </section>
+        </div>
+      </section>
       {/* </section> */}
     </>
   )
