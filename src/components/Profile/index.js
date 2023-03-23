@@ -1,7 +1,7 @@
 import { GitHubIcon, LinkedinIcon, ResumeIcon } from '@assets/icons.js'
 import LinkCustom from '@components/LinkCustom'
-// import Image from 'next/image'
-// import avatar from '../../../public/AR.png'
+import Image from 'next/image'
+import avatar from '../../../public/AR.png'
 
 export function Profile() {
   const LINKS = [
@@ -41,12 +41,7 @@ export function Profile() {
           </div>
         </div>
         <aside className='m-auto hidden md:flex'>
-          {/* <Image src={avatar} alt='avatar'/> */}
-          <img
-            src='https://laguilavo10.github.io/portafolio-personal/assets/AR.be277711.png'
-            alt='avatar'
-          />
-          {/* <img src='' alt=''/> */}
+          <Image src={avatar} alt='avatar' quality={100}/>
         </aside>
       </section>
     </>

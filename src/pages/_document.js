@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-// import favicon from '../../public/favicon.svg'
+
 export default function Document() {
   return (
     <Html>
@@ -14,7 +14,7 @@ export default function Document() {
           href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300&display=swap'
           rel='stylesheet'
         />
-        <link rel='shortcut icon' href='https://laguilavo10.github.io/portafolio-personal/portfolio.svg' type='image/x-icon'/>
+        <link rel='shortcut icon' href='/favicon.svg' type='image/x-icon' />
         <title>Andres Laguilavo</title>
       </Head>
       <body>

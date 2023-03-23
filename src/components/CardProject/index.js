@@ -13,6 +13,7 @@ export function CardProject({ title, img, labels, url, repo, description = '' })
           width='400'
           height='400'
           className='rounded-md object-cover'
+          alt='title'
         />
         {/* Etiquetas */}
         <ul className='flex gap-3'>
