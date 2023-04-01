@@ -2,6 +2,7 @@ import { GitHubIcon, LinkedinIcon, ResumeIcon } from '@assets/icons.js'
 import LinkCustom from '@components/LinkCustom'
 import Image from 'next/image'
 import avatar from '../../../public/AR.png'
+import { motion } from 'framer-motion'
 
 export function Profile() {
   const LINKS = [
@@ -40,9 +41,18 @@ export function Profile() {
             ))}
           </div>
         </div>
-        <aside className='m-auto hidden md:flex'>
-          <Image src={avatar} alt='avatar' quality={100}/>
-        </aside>
+        {/* <aside className='m-auto hidden md:flex'> */}
+        <motion.div
+          className='w-full m-auto md:flex justify-center hidden'
+          animate={{ y: [8, -8] }}
+          transition={{
+            duration: 1,
+            repeat: Infinity,
+            repeatType: 'reverse'
+          }}>
+          <Image src={avatar} alt='avatar' quality={90} />
+          {/* </aside> */}
+        </motion.div>
       </section>
     </>
   )
