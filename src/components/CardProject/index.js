@@ -2,10 +2,17 @@ import { GitHubIcon, WebIcon } from '@assets/icons'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export function CardProject({ title, img, labels, url, repo, description = '' }) {
+export function CardProject({
+  title,
+  img,
+  labels,
+  url,
+  repo,
+  description = ''
+}) {
   return (
     <>
-      <article className='relative flex max-w-xs flex-col gap-4 rounded-md border-2 border-secondary-500 pb-14 p-6 hover:bg-secondary-600 hover:bg-opacity-20'>
+      <article className='relative flex max-w-xs lg:min-w-full flex-col gap-4 rounded-md border-2 border-orange-200 p-6 pb-14 hover:scale-105 hover:bg-opacity-20 transition-all ease-in'>
         <h4 className='text-white'>{title}</h4>
         {/* Imagen */}
         <Image
@@ -18,29 +25,27 @@ export function CardProject({ title, img, labels, url, repo, description = '' })
         {/* Etiquetas */}
         <ul className='flex gap-3'>
           {labels.map((label, index) => (
-            <li key={index} className=' rounded-md bg-primary-900 px-2 py-1 text-sm font-extrabold text-secondary-500'>
+            <li
+              key={index}
+              className=' rounded-md bg-primary-700 px-2 py-1 text-sm font-extrabold text-orange-700'>
               {label}
             </li>
           ))}
         </ul>
         {/* Descripcion */}
-        <p className='text-sm'>
-            {description}
-        </p>
+        <p className='text-sm'>{description}</p>
         {/* Links */}
-        <div className='flex bottom-5 right-6 gap-5 self absolute'>
+        <div className='self absolute bottom-5 right-6 flex gap-5'>
           <Link
             target={'_blank'}
             href={repo}
-            className='transition-all duration-100 ease-out hover:scale-125'
-          >
+            className='transition-all duration-100 ease-out hover:scale-125'>
             <GitHubIcon width='25' height='25' />
           </Link>
           <Link
             target={'_blank'}
             href={url}
-            className='transition-all duration-100 ease-out hover:scale-125'
-          >
+            className='transition-all duration-100 ease-out hover:scale-125'>
             <WebIcon width='25' height='25' />
           </Link>
         </div>

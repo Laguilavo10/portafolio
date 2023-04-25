@@ -7,6 +7,7 @@ export function TopBar() {
           <p className='text-xl hidden sm:flex'>Andres Laguilavo</p>
           <ul className='flex gap-8 justify-center w-full sm:w-auto text-xs sm:text-base text-center'>
             <li><a href='#about'>Sobre Mi</a></li>
+            <li><a href='#experience'>Experiencia</a></li>
             <li><a href='#skills'>Habilidades</a></li>
             <li><a href='#projects'>Proyectos</a></li>
             <li><a href='#contact'>Contacto</a></li>
