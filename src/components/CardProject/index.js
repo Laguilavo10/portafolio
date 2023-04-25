@@ -18,7 +18,7 @@ export function CardProject({ title, img, labels, url, repo, description = '' })
         {/* Etiquetas */}
         <ul className='flex gap-3'>
           {labels.map((label, index) => (
-            <li key={index} className=' rounded-md bg-primary-700 px-2 py-1 text-sm font-extrabold text-secondary-500'>
+            <li key={index} className=' rounded-md bg-primary-900 px-2 py-1 text-sm font-extrabold text-secondary-500'>
               {label}
             </li>
           ))}

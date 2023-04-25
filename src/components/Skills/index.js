@@ -47,7 +47,7 @@ export function Skills() {
   ]
   return (
     <>
-      <section id='skills' className='pt-12'>
+      <section id='skills' className='pt-16'>
         <TitleSection>Habilidades</TitleSection>
         <ul className='my-10 flex grid-cols-5 justify-evenly gap-4 sm:grid flex-wrap'>
           {Stack.map(({ name, icon }) => (

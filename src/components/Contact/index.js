@@ -5,7 +5,7 @@ import { TitleSection } from '@components/TitleSection'
 export function Contact() {
   return (
     <>
-      <section className='gap-10 flex flex-col pt-12 items-center' id='contact'>
+      <section className='gap-10 flex flex-col pt-16 items-center' id='contact'>
         <TitleSection>Contacto</TitleSection>
         <p className='text-center w-2/5 min-w-[280px]'>
           ¡No dudes en ponerte en contacto conmigo para discutir cómo puedo

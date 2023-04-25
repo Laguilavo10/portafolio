@@ -29,10 +29,10 @@ export function Profile() {
           <h1 className='text-6xl text-primary-200'>
             I&apos;m <br /> Andres Laguilavo
           </h1>
-          <h3 className='bg-[linear-gradient(90deg,#31235e,#a6a8b0)] bg-clip-text text-3xl font-bold text-transparent'>
+          <h3 className='bg-[linear-gradient(90deg,#8676c9,#a6a8b0)] bg-clip-text text-3xl font-bold text-transparent'>
             Frontend Developer
           </h3>
-          <div className='flex flex-wrap justify-center gap-4'>
+          <div className='flex flex-wrap gap-4'>
             {LINKS.map(({ label, icon, href }) => (
               <LinkCustom href={href} key={label} styles=''>
                 {icon}

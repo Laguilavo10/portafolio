@@ -7,7 +7,7 @@ import { TopBar } from '@components/TopBar'
 
 export default function Home() {
   return (
-    <main className='min-h-screen bg-primary-500 font-poppins text-primary-200 sm:px-20 p-5 flex flex-col gap-10'>
+    <main className='min-h-screen bg-primary-500 font-poppins text-primary-200 sm:px-20 p-5 flex flex-col gap-10 max-w-[1440px] m-auto'>
       <TopBar />
       <Profile />
       <AboutMe/>

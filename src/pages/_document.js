@@ -17,7 +17,7 @@ export default function Document() {
         <link rel='shortcut icon' href='/favicon.svg' type='image/x-icon' />
         <title>Andres Laguilavo</title>
       </Head>
-      <body>
+      <body className='bg-primary-500'>
         <Main />
         <NextScript />
       </body>

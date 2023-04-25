@@ -1,4 +1,4 @@
-const PURPLECOLOR = '#31235e'
+const PURPLECOLOR = '#ad9cf3'
 const BACKCOLOR = '#090e16'
 
 export const GitHubIcon = (props) => {
