@@ -12,7 +12,7 @@ export function CardProject({
 }) {
   return (
     <>
-      <article className='relative flex max-w-xs lg:min-w-full flex-col gap-4 rounded-md border-2 border-orange-200 p-6 pb-14 hover:scale-105 hover:bg-opacity-20 transition-all ease-in'>
+      <article className='relative flex max-w-xs flex-col gap-4 rounded-md border-2 border-orange-200 p-6 pb-14 transition-all ease-in hover:scale-105 hover:bg-opacity-20 lg:min-w-full'>
         <h4 className='text-white'>{title}</h4>
         {/* Imagen */}
         <Image
@@ -36,18 +36,22 @@ export function CardProject({
         <p className='text-sm'>{description}</p>
         {/* Links */}
         <div className='self absolute bottom-5 right-6 flex gap-5'>
-          <Link
-            target={'_blank'}
-            href={repo}
-            className='transition-all duration-100 ease-out hover:scale-125'>
-            <GitHubIcon width='25' height='25' />
-          </Link>
-          <Link
-            target={'_blank'}
-            href={url}
-            className='transition-all duration-100 ease-out hover:scale-125'>
-            <WebIcon width='25' height='25' />
-          </Link>
+          {repo && (
+            <Link
+              target={'_blank'}
+              href={repo}
+              className='transition-all duration-100 ease-out hover:scale-125'>
+              <GitHubIcon width='25' height='25' />
+            </Link>
+          )}
+          {url && (
+            <Link
+              target={'_blank'}
+              href={url}
+              className='transition-all duration-100 ease-out hover:scale-125'>
+              <WebIcon width='25' height='25' />
+            </Link>
+          )}
         </div>
       </article>
     </>
