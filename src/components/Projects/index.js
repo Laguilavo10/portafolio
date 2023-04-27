@@ -22,7 +22,7 @@ export function Projects() {
     {
       title: 'Gestor de Gastos',
       img: gastos.src,
-      labels: ['react', 'css'],
+      labels: ['React', 'CSS'],
       repo: 'https://github.com/Laguilavo10/gestor-de-gastos',
       url: 'https://laguilavo10.github.io/gestor-de-gastos/',
       description:
@@ -31,7 +31,7 @@ export function Projects() {
     {
       title: 'Cinema Data',
       img: cine.src,
-      labels: ['react', 'css'],
+      labels: ['React', 'CSS'],
       repo: 'https://github.com/Laguilavo10/WebMovies',
       url: 'https://laguilavo10.github.io/WebMovies/',
       description:
@@ -40,7 +40,7 @@ export function Projects() {
     {
       title: 'Pokedex',
       img: pokedex.src,
-      labels: ['react', 'css'],
+      labels: ['React', 'CSS'],
       repo: 'https://github.com/Laguilavo10/pokedex-kanto',
       url: 'https://laguilavo10.github.io/pokedex-kanto/',
       description:
@@ -49,7 +49,7 @@ export function Projects() {
     {
       title: 'Periodic Table',
       img: tablaPeriodica.src,
-      labels: ['react', 'css'],
+      labels: ['React', 'CSS'],
       repo: 'https://github.com/Laguilavo10/periodic-table/',
       url: 'https://laguilavo10.github.io/periodic-table/',
       description:
@@ -58,7 +58,7 @@ export function Projects() {
     {
       title: 'PassWord Generator',
       img: passwordGenerator.src,
-      labels: ['html', 'css', 'javascript'],
+      labels: ['HTML', 'CSS', 'JavaScript'],
       repo: 'https://github.com/Laguilavo10/password-generator',
       url: 'https://laguilavo10.github.io/password-generator/',
       description:
@@ -67,7 +67,7 @@ export function Projects() {
     // {
     //   title: 'Login Instagram',
     //   img: LoginIg.src,
-    //   labels: ['html', 'css'],
+    //   labels: ['HTML', 'CSS'],
     //   repo: 'https://github.com/Laguilavo10/clon-Instagram',
     //   url: 'https://laguilavo10.github.io/clon-Instagram/',
     //   description:

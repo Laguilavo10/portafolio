@@ -13,7 +13,7 @@ export function CardProject({
   return (
     <>
       <article className='relative flex max-w-xs flex-col gap-4 rounded-md border-2 border-orange-200 p-6 pb-14 transition-all ease-in hover:scale-105 hover:bg-opacity-20 lg:min-w-full'>
-        <h4 className='text-white'>{title}</h4>
+        <h4 className='text-white font-semibold text-xl'>{title}</h4>
         {/* Imagen */}
         <Image
           src={img}
@@ -27,7 +27,7 @@ export function CardProject({
           {labels.map((label, index) => (
             <li
               key={index}
-              className=' rounded-md bg-primary-700 px-2 py-1 text-sm font-extrabold text-orange-700'>
+              className=' rounded-md bg-primary-700 px-2 py-1 text-sm font-extrabold text-orange-500'>
               {label}
             </li>
           ))}

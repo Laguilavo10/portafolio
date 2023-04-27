@@ -3,12 +3,12 @@ import { WorkCard } from '@components/WorkCard'
 
 const EXP = [
   {
-    job: 'Desarrollador sistema de información',
-    dates: 'Mar-2022 / Abr-2023',
+    job: 'Desarrollador de Software',
+    dates: 'Mar-2022 / May-2023',
     description: `Desarrollé un sistema de información para la lavanderia LAVAPOR 
     utilizando Next.js y TypeScript para el frontend, Tailwind CSS para el 
     diseño de la interfaz de usuario, JSON Web Tokens (JWT) para la autenticación 
-    y cookies, y MySQL para la base de datos. Este proyecto me permitió mejorar  mis habilidades en desarrollo frontend y crear una interfaz de usuario intuitiva y fácil de usar`,
+    y cookies, y MySQL para la base de datos. Este sistema de información facilito a la lavanderia administrar la informacion de los clientes, empleados y ventas,  lo que les permitió concentrarse en brindar un mejor servicio y aumentar su rentabilidad.`,
     company: 'Freelance',
     current: false
   },
