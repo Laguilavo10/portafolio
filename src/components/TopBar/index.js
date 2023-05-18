@@ -10,6 +10,7 @@ export function TopBar() {
             <li><a href='#experience'>Experiencia</a></li>
             <li><a href='#skills'>Habilidades</a></li>
             <li><a href='#projects'>Proyectos</a></li>
+            <li><a href='#certifications'>Certificaciones</a></li>
             <li><a href='#contact'>Contacto</a></li>
           </ul>
         </nav>
