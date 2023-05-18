@@ -8,15 +8,14 @@ export function Certifications({ images }) {
   return (
     <section className='flex flex-col pt-16' id='certifications'>
       <TitleSection>Certificados</TitleSection>
-      <ul className='my-16 flex snap-x gap-7 overflow-x-scroll'>
+      <ul className='overflow-auto mt-16 flex snap-x gap-7 mb-4'>
         {images.map((image, index) => (
-          <li key={index} className='mb-2 snap-center max-h-[230px]'>
+          <li key={index} className='mb-2 max-h-[230px] snap-center'>
             <Image
               src={image.url}
               width={800}
               height={200}
-              className='min-w-[300px]'
-              ></Image>
+              className='min-w-[300px]'></Image>
           </li>
         ))}
       </ul>
