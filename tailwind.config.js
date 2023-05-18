@@ -25,6 +25,15 @@ module.exports = {
           800: '#05070c',
           900: '#030509'
         }
+      },
+      animation: {
+        slider: 'slider 40s linear infinite'
+      },
+      keyframes: {
+        slider: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-300px * 5))' }
+        }
       }
     }
   },

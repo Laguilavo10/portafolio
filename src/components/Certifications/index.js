@@ -5,11 +5,12 @@ import Link from 'next/link'
 import { ArrowIcon } from '@assets/icons'
 
 export function Certifications({ images }) {
+  const duplicateImages = [...images, ...images]
   return (
-    <section className='flex flex-col pt-16' id='certifications'>
+    <section className='flex flex-col pt-16 overflow-hidden' id='certifications'>
       <TitleSection>Certificados</TitleSection>
-      <ul className='overflow-auto mt-16 flex snap-x gap-7 mb-4'>
-        {images.map((image, index) => (
+      <ul className='animate-slider mt-16 flex snap-x gap-7 mb-4 w-[calc(300px * 10)]'>
+        {duplicateImages.map((image, index) => (
           <li key={index} className='mb-2 max-h-[230px] snap-center'>
             <Image
               src={image.url}
