@@ -7,16 +7,20 @@ import { ArrowIcon } from '@assets/icons'
 export function Certifications({ images }) {
   const duplicateImages = [...images, ...images]
   return (
-    <section className='flex flex-col pt-16 overflow-hidden' id='certifications'>
+    <section
+      className='flex flex-col overflow-hidden pt-16'
+      id='certifications'>
       <TitleSection>Certificados</TitleSection>
-      <ul className='animate-slider mt-16 flex snap-x gap-7 mb-4 w-[calc(300px * 10)]'>
+      <ul className='w-[calc(300px * 10)] mt-16 mb-4 flex animate-slider snap-x gap-7'>
         {duplicateImages.map((image, index) => (
           <li key={index} className='mb-2 max-h-[230px] snap-center'>
             <Image
               src={image.url}
               width={800}
               height={200}
-              className='min-w-[300px]'></Image>
+              className='min-w-[300px] max-w-[300px]'
+              alt={image.filename}
+            />
           </li>
         ))}
       </ul>
