@@ -4,6 +4,9 @@ export default function Document() {
   return (
     <Html>
       <Head>
+      <meta name="description" content="Apasionado Frontend Developer con experiencia en la creación de aplicaciones web modernas y atractivas."/>
+      <meta name="keywords" content="Frontend Developer, HTML, CSS, JavaScript, React, TailwindCSS, NextJS"/>
+      <meta name="author" content="Andres Felipe Laguilavo Ruiz"/>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link
           rel='preconnect'
