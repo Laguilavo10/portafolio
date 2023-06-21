@@ -3,8 +3,15 @@ import LinkCustom from '@components/LinkCustom'
 import Image from 'next/image'
 import avatar from '../../../public/AR.png'
 import { motion } from 'framer-motion'
+import { useLanguaje } from 'context/useLanguaje'
 
 export function Profile() {
+  const { lang } = useLanguaje()
+  console.log()
+  const resumeLink =
+    lang.aboutMe.title === 'Sobre Mi'
+      ? 'https://drive.google.com/file/d/1VOtnGhdWROxqm6nhvWqHwZxDuBwpRNC4/view'
+      : 'https://drive.google.com/file/d/1rTzBPxCwjW9x-U0NTyBgrKUVNueWgELt/view'
   const LINKS = [
     {
       label: 'Github',
@@ -19,7 +26,7 @@ export function Profile() {
     {
       label: 'Resume',
       icon: <ResumeIcon width='25' height='25' />,
-      href: 'https://drive.google.com/file/d/1VOtnGhdWROxqm6nhvWqHwZxDuBwpRNC4/view'
+      href: resumeLink
     }
   ]
   return (
@@ -43,7 +50,7 @@ export function Profile() {
         </div>
         {/* <aside className='m-auto hidden md:flex'> */}
         <motion.div
-          className='w-full m-auto md:flex justify-center hidden'
+          className='m-auto hidden w-full justify-center md:flex'
           animate={{ y: [8, -8] }}
           transition={{
             duration: 1,

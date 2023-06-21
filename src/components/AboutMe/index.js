@@ -7,7 +7,6 @@ export function AboutMe() {
   const { lang } = useLanguaje()
   return (
     <>
-      {/* <section className='pt-12' id='about'> */}
       <section id='about' className='m-auto pt-12 lg:pt-24'>
         <div className='relative flex max-w-[1200px] flex-col items-center gap-14 rounded-md p-10 md:grid-cols-5 lg:grid lg:bg-primary-400 lg:bg-opacity-30'>
           <Image
