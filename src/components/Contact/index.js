@@ -1,15 +1,16 @@
 import { EmailIcon, LinkedinIcon } from '@assets/icons'
 import LinkCustom from '@components/LinkCustom'
 import { TitleSection } from '@components/TitleSection'
+import { useLanguaje } from 'context/useLanguaje'
 
 export function Contact() {
+  const { lang } = useLanguaje()
   return (
     <>
       <section className='gap-10 flex flex-col pt-16 items-center' id='contact'>
-        <TitleSection>Contacto</TitleSection>
+        <TitleSection>{lang.contact.title}</TitleSection>
         <p className='text-center w-2/5 min-w-[280px]'>
-          ¡No dudes en ponerte en contacto conmigo para discutir cómo puedo
-          contribuir a tu equipo!
+          {lang.contact.description}
         </p>
         <div className='flex gap-16 justify-center'>
           <LinkCustom

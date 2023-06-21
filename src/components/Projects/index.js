@@ -5,80 +5,66 @@ import cine from '../../../public/moviesInfo.jpeg'
 import pokedex from '../../../public/pokedex.jpeg'
 import tablaPeriodica from '../../../public/periodicTable.jpeg'
 import passwordGenerator from '../../../public/passwordGenerator.jpeg'
-// import LoginIg from '../../../public/loginInstagram.jpeg'
 import SI from '../../../public/SI.jpeg'
+import { useLanguaje } from 'context/useLanguaje'
 
 export function Projects() {
+  const { lang } = useLanguaje()
   const Projects = [
     {
-      title: 'SI Lavapor',
+      title: lang.projects.data[0].title,
       img: SI.src,
       labels: ['NextJS', 'Tailwind', 'SQL', 'JWT'],
       repo: '',
       url: 'https://www.linkedin.com/feed/update/urn:li:activity:7056676036511428608/',
-      description:
-        'Sistema de información busca mejorar la eficiencia de la lavandería mediante el tratamiento de los datos. La información procesada permitirá a la empresa identificar patrones y tendencias para optimizar su trabajo.'
+      description: lang.projects.data[0].description
     },
     {
-      title: 'Gestor de Gastos',
+      title: lang.projects.data[1].title,
       img: gastos.src,
       labels: ['React', 'CSS'],
       repo: 'https://github.com/Laguilavo10/gestor-de-gastos',
       url: 'https://laguilavo10.github.io/gestor-de-gastos/',
-      description:
-        'Sistema de gestor de gastos hecho en React y que utiliza localStorage para almacenar los datos del usuario en su dispositivo local. Herramienta para ayudar a los usuarios a administrar sus finanzas personales y hacer un seguimiento de sus gastos diarios.'
+      description: lang.projects.data[1].description
     },
     {
-      title: 'Cinema Data',
+      title: lang.projects.data[2].title,
       img: cine.src,
       labels: ['React', 'CSS'],
       repo: 'https://github.com/Laguilavo10/WebMovies',
       url: 'https://laguilavo10.github.io/WebMovies/',
-      description:
-        'Plataforma para explorar películas, los usuarios pueden encontrar una amplia selección de películas organizadas por género, tendencias, ademas. Proyecto usando React y la API de The Movie Database.'
+      description: lang.projects.data[2].description
     },
     {
-      title: 'Pokedex',
+      title: lang.projects.data[3].title,
       img: pokedex.src,
       labels: ['React', 'CSS'],
       repo: 'https://github.com/Laguilavo10/pokedex-kanto',
       url: 'https://laguilavo10.github.io/pokedex-kanto/',
-      description:
-        'Pokedex hecha en React que utiliza la PokeAPI para mostrar información detallada sobre cada Pokemon en un diseño fiel al pokedex original de primera generación. La navegacion  funciona dando click a las flechas del pokedex.'
+      description: lang.projects.data[3].description
     },
     {
-      title: 'Periodic Table',
+      title: lang.projects.data[4].title,
       img: tablaPeriodica.src,
       labels: ['React', 'CSS'],
       repo: 'https://github.com/Laguilavo10/periodic-table/',
       url: 'https://laguilavo10.github.io/periodic-table/',
-      description:
-        'Tabla periódica interactiva que muestra información detallada de los elementos químicos obtenidos a través de una API. Está construido con el framework React y ofrece una experiencia de usuario intuitiva y atractiva. Al igual, con una correcta funcionalidad en mobile.'
+      description: lang.projects.data[4].description
     },
     {
-      title: 'PassWord Generator',
+      title: lang.projects.data[5].title,
       img: passwordGenerator.src,
       labels: ['HTML', 'CSS', 'JavaScript'],
       repo: 'https://github.com/Laguilavo10/password-generator',
       url: 'https://laguilavo10.github.io/password-generator/',
-      description:
-        'Generador de contraseñas construido únicamente con HTML, CSS y JavaScript. Permite crear contraseñas aleatorias con los caractereres y longitud deseadas, teniendo una interfaz de usuario fácil de usar.'
+      description: lang.projects.data[5].description
     }
-    // {
-    //   title: 'Login Instagram',
-    //   img: LoginIg.src,
-    //   labels: ['HTML', 'CSS'],
-    //   repo: 'https://github.com/Laguilavo10/clon-Instagram',
-    //   url: 'https://laguilavo10.github.io/clon-Instagram/',
-    //   description:
-    //     'Clon del login de Instagram hecho para el reto #PLATZICHALLENGE. Fue construido con HTML y CSS,  ofrece una interfaz UI similar a la original de Instagraml. Fue realizada con la intencion de practicar las habilidades de maquetación WEB.'
-    // }
   ]
 
   return (
     <>
       <section id='projects' className='pt-16'>
-        <TitleSection>Proyectos</TitleSection>
+        <TitleSection>{lang.projects.title}</TitleSection>
         <section className='mt-8 flex w-full flex-wrap justify-center gap-9 lg:grid lg:grid-cols-3'>
           {Projects.map(({ title, img, labels, url, repo, description }) => (
             <CardProject

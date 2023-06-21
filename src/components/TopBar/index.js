@@ -1,8 +1,10 @@
 import { BurguerIcon, XIcon } from '@assets/icons'
 import { LanguajeToogle } from '@components/LanguajeToggle'
+import { useLanguaje } from 'context/useLanguaje'
 import { useState } from 'react'
 
 export function TopBar() {
+  const { lang } = useLanguaje()
   const [isOpenMenu, setIsOpenMenu] = useState(false)
   return (
     <>
@@ -12,7 +14,7 @@ export function TopBar() {
             isOpenMenu ? 'hidden' : 'flex'
           }`}>
           <BurguerIcon
-            className={'absolute top-1 right-2 z-10 h-8 w-8'}
+            className={'absolute top-1 right-2 z-10 h-8 w-8 cursor-pointer'}
             onClick={() => setIsOpenMenu(true)}
           />
         </div>
@@ -30,26 +32,13 @@ export function TopBar() {
                 onClick={() => setIsOpenMenu(false)}
               />
             )}
-            <li className='transition-transform duration-150 ease-linear hover:scale-125'>
-              <a href='#about'>Sobre Mi</a>
-            </li>
-            <li className='transition-transform duration-150 ease-linear hover:scale-125'>
-              <a href='#experience'>Experiencia</a>
-            </li>
-            <li className='transition-transform duration-150 ease-linear hover:scale-125'>
-              <a href='#skills'>Habilidades</a>
-            </li>
-            <li className='transition-transform duration-150 ease-linear hover:scale-125'>
-              <a href='#projects'>Proyectos</a>
-            </li>
-            <li className='transition-transform duration-150 ease-linear hover:scale-125'>
-              <a href='#certifications'>Certificaciones</a>
-            </li>
-            <li className='transition-transform duration-150 ease-linear hover:scale-125'>
-              <a href='#contact'>Contacto</a>
-            </li>
+            {lang.header.map((item) => (
+              <li className='transition-transform duration-150 ease-linear hover:scale-125' key={item.href}>
+                <a href={`#${item.href}`}>{item.name}</a>
+              </li>
+            ))}
             <li>
-              <LanguajeToogle/>
+              <LanguajeToogle />
             </li>
           </ul>
         </nav>

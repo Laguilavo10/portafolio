@@ -3,15 +3,17 @@ import { TitleSection } from '@components/TitleSection'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowIcon } from '@assets/icons'
+import { useLanguaje } from 'context/useLanguaje'
 
 export function Certifications({ images }) {
   const duplicateImages = [...images, ...images]
+  const { lang } = useLanguaje()
   // const duplicateImages = images.slice(1, 2)
   return (
     <section
       className='flex flex-col overflow-hidden pt-16'
       id='certifications'>
-      <TitleSection>Certificados</TitleSection>
+      <TitleSection>{lang.certifications.title}</TitleSection>
       <ul className='w-[calc(300px * 10)] mt-16 mb-4 flex animate-slider snap-x gap-7 hover:animate-stop'>
         {duplicateImages.map((image, index) => (
           <li key={index} className='mb-2 max-h-[230px] snap-center'>

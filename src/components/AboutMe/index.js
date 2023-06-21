@@ -2,7 +2,9 @@
 import { TitleSection } from '@components/TitleSection'
 import Image from 'next/image'
 import cara from '../../../public/cara.jpg'
+import { useLanguaje } from 'context/useLanguaje'
 export function AboutMe() {
+  const { lang } = useLanguaje()
   return (
     <>
       {/* <section className='pt-12' id='about'> */}
@@ -16,15 +18,8 @@ export function AboutMe() {
             alt='Andres Laguilavo'
           />
           <div className='col-span-4 col-start-3 flex flex-col items-center gap-4'>
-            <TitleSection>Sobre Mi</TitleSection>
-            <p>
-              Soy un apasionado de la tecnología y el desarrollo web, siempre
-              buscando nuevas formas de crear experiencias digitales únicas y
-              emocionantes. Con mi experiencia en programación y diseño, puedo
-              crear sitios web que sean tanto visualmente atractivos como
-              funcionales. Siempre estoy buscando nuevos proyectos emocionantes
-              que me permitan seguir aprendiendo y creciendo en mi carrera.
-            </p>
+            <TitleSection>{lang.aboutMe.title}</TitleSection>
+            <p>{lang.aboutMe.description}</p>
           </div>
         </div>
       </section>
