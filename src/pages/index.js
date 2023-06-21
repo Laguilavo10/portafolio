@@ -12,7 +12,7 @@ import { LanguajeProvider } from 'context/useLanguaje'
 export default function Home({ images }) {
   return (
     <LanguajeProvider>
-      <main className='relative m-auto flex min-h-screen max-w-[1440px] flex-col gap-10 bg-primary-500 p-5 pb-28 font-poppins text-primary-200 sm:px-20'>
+      <main className='relative m-auto flex min-h-screen max-w-[1440px] flex-col gap-10 bg-primary-500 p-5 pb-28 font-poppins text-primary-200 sm:px-20 overflow-x-hidden'>
         <TopBar />
         <Profile />
         <AboutMe />
