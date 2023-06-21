@@ -15,7 +15,7 @@ export function TopBar() {
             onClick={() => setIsOpenMenu(true)}
           />
         </div>
-        <nav className='relative sm:flex sm:items-center sm:justify-between sm:py-4 sm:px-4 sm:backdrop-blur-[20px]'>
+        <nav className='relative md:flex md:items-center md:justify-between md:py-4 md:px-4 md:backdrop-blur-[20px]'>
           <p className='hidden min-w-max text-xl lg:flex'>Andres Laguilavo</p>
           <ul
             className={`absolute right-0 flex h-screen w-52 flex-col items-center justify-center gap-8 bg-primary-500 text-white ${
