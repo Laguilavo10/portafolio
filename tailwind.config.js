@@ -27,8 +27,8 @@ module.exports = {
         }
       },
       animation: {
-        slider: 'slider 10s linear infinite',
-        stop: 'slider 10s linear infinite paused'
+        slider: 'slider 25s linear infinite',
+        stop: 'slider 25s linear infinite paused'
       },
       keyframes: {
         slider: {
