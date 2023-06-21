@@ -18,7 +18,6 @@ export default function Document() {
           rel='stylesheet'
         />
         <link rel='shortcut icon' href='/favicon.svg' type='image/x-icon' />
-        <title>Andres Laguilavo</title>
       </Head>
       <body className='bg-primary-500'>
         <Main />
