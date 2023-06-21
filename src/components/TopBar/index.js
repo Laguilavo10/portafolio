@@ -1,4 +1,5 @@
 import { BurguerIcon, XIcon } from '@assets/icons'
+import { LanguajeToogle } from '@components/LanguajeToggle'
 import { useState } from 'react'
 
 export function TopBar() {
@@ -46,6 +47,9 @@ export function TopBar() {
             </li>
             <li className='transition-transform duration-150 ease-linear hover:scale-125'>
               <a href='#contact'>Contacto</a>
+            </li>
+            <li>
+              <LanguajeToogle/>
             </li>
           </ul>
         </nav>
