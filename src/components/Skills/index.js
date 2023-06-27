@@ -1,10 +1,12 @@
 import {
   CssIcon,
   GitIcon,
+  GraphQLIcon,
   HtmlIcon,
   JavascriptIcon,
   NextjsIcon,
   ReactIcon,
+  SQLIcon,
   TailwindIcon,
   TypescriptIcon
 } from '@assets/icons'
@@ -43,6 +45,14 @@ const Stack = [
   {
     name: 'NextJS',
     icon: <NextjsIcon height='70' width='70' />
+  },
+  {
+    name: 'SQL',
+    icon: <SQLIcon height='70' width='70' />
+  },
+  {
+    name: 'GraphQL',
+    icon: <GraphQLIcon height='70' width='70' />
   }
 ]
 export function Skills() {
