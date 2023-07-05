@@ -4,7 +4,7 @@ import gastos from '../../../public/gestorGastos.jpeg'
 import cine from '../../../public/moviesInfo.jpeg'
 import pokedex from '../../../public/pokedex.jpeg'
 import tablaPeriodica from '../../../public/periodicTable.jpeg'
-import passwordGenerator from '../../../public/passwordGenerator.jpeg'
+import certifications from '../../../public/certifications.jpeg'
 import SI from '../../../public/SI.jpeg'
 import { useLanguaje } from 'context/useLanguaje'
 
@@ -18,6 +18,14 @@ export function Projects() {
       repo: '',
       url: 'https://www.linkedin.com/feed/update/urn:li:activity:7056676036511428608/',
       description: lang.projects.data[0].description
+    },
+    {
+      title: lang.projects.data[5].title,
+      img: certifications.src,
+      labels: ['NextJS', 'Tailwind', 'Typescript'],
+      repo: 'https://github.com/Laguilavo10/certifications',
+      url: 'https://laguilavo-certifications.vercel.app/',
+      description: lang.projects.data[5].description
     },
     {
       title: lang.projects.data[1].title,
@@ -50,15 +58,8 @@ export function Projects() {
       repo: 'https://github.com/Laguilavo10/periodic-table/',
       url: 'https://laguilavo10.github.io/periodic-table/',
       description: lang.projects.data[4].description
-    },
-    {
-      title: lang.projects.data[5].title,
-      img: passwordGenerator.src,
-      labels: ['HTML', 'CSS', 'JavaScript'],
-      repo: 'https://github.com/Laguilavo10/password-generator',
-      url: 'https://laguilavo10.github.io/password-generator/',
-      description: lang.projects.data[5].description
     }
+
   ]
 
   return (

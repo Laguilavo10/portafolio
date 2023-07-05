@@ -40,7 +40,7 @@ export function CardProject({
             <Link
               target={'_blank'}
               href={repo}
-              className='transition-all duration-1000 ease-out [&>svg]:hover:fill-white hover:animate-bounce'>
+              className='transition-all duration-1000 ease-out [&>svg]:hover:fill-white '>
               <GitHubIcon width='25' height='25' />
             </Link>
           )}
@@ -48,7 +48,7 @@ export function CardProject({
             <Link
               target={'_blank'}
               href={url}
-              className='transition-all duration-100 ease-out [&>svg]:hover:stroke-white stroke-[#9aa2ad]  hover:animate-bounce'>
+              className='transition-all duration-100 ease-out [&>svg]:hover:stroke-white stroke-[#9aa2ad]  '>
               <WebIcon width='25' height='25' />
             </Link>
           )}

@@ -86,9 +86,9 @@ export const languajes = {
             'Tabla periódica interactiva que muestra información detallada de los elementos químicos obtenidos a través de una API. Está construido con el framework React y ofrece una experiencia de usuario intuitiva y atractiva. Al igual, con una correcta funcionalidad en mobile.'
         },
         {
-          title: 'PassWord Generator',
+          title: 'Certificaciones',
           description:
-            'Generador de contraseñas construido únicamente con HTML, CSS y JavaScript. Permite crear contraseñas aleatorias con los caractereres y longitud deseadas, teniendo una interfaz de usuario fácil de usar.'
+            'Galería de diplomas obtenidos a lo largo de mi carrera profesional desempeñándome como desarrollador de software. Construido con Next.js 13 utilizando App Router y haciendo uso de la herramienta Cloudinary para el alojamiento de las imágenes.'
         }
       ]
     },
@@ -183,9 +183,9 @@ export const languajes = {
             'Interactive periodic table that provides detailed information about chemical elements obtained through an API. It is built with the React framework and offers an intuitive and attractive user experience, with proper mobile functionality as well.'
         },
         {
-          title: 'Password Generator',
+          title: 'Certifications',
           description:
-            'Password generator built solely with HTML, CSS, and JavaScript. It allows you to create random passwords with desired characters and length, featuring a user-friendly interface.'
+            'Diploma gallery obtained throughout my professional career as a software developer. Built with Next.js 13 using the App Router and making use of the Cloudinary tool for image hosting.'
         }
       ]
     },
