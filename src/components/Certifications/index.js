@@ -1,14 +1,25 @@
-import React from 'react'
+import { useEffect, useState } from 'react'
 import { TitleSection } from '@components/TitleSection'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowIcon } from '@assets/icons'
 import { useLanguaje } from 'context/useLanguaje'
 
-export function Certifications({ images }) {
-  const duplicateImages = [...images, ...images]
+export function Certifications() {
+  const [images, setImages] = useState([])
   const { lang } = useLanguaje()
-  // const duplicateImages = images.slice(1, 2)
+  const duplicateImages = [...images, ...images]
+
+  const getImagesCertifications = async () => {
+    const data = await fetch('/api/get-certifications')
+    const response = await data.json()
+    setImages(response.data)
+  }
+
+  useEffect(() => {
+    getImagesCertifications()
+  }, [])
+
   return (
     <section
       className='flex flex-col overflow-hidden pt-16'
