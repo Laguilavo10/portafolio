@@ -1,10 +1,10 @@
 import { CardProject } from '@components/CardProject'
 import { TitleSection } from '@components/TitleSection'
-import gastos from '../../../public/gestorGastos.jpeg'
 import cine from '../../../public/moviesInfo.jpeg'
 import pokedex from '../../../public/pokedex.jpeg'
 import tablaPeriodica from '../../../public/periodicTable.jpeg'
 import certifications from '../../../public/certifications.jpeg'
+import yardsale from '../../../public/yarsale.jpeg'
 import SI from '../../../public/SI.jpeg'
 import { useLanguaje } from 'context/useLanguaje'
 
@@ -29,10 +29,10 @@ export function Projects() {
     },
     {
       title: lang.projects.data[1].title,
-      img: gastos.src,
-      labels: ['React', 'CSS'],
-      repo: 'https://github.com/Laguilavo10/gestor-de-gastos',
-      url: 'https://laguilavo10.github.io/gestor-de-gastos/',
+      img: yardsale.src,
+      labels: ['NextJS', 'Tailwind', 'GraphQL'],
+      repo: 'https://github.com/Laguilavo10/YardSale',
+      url: 'https://yard-sale-laguilavo.vercel.app/',
       description: lang.projects.data[1].description
     },
     {

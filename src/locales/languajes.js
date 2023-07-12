@@ -66,9 +66,9 @@ export const languajes = {
             'Sistema de información busca mejorar la eficiencia de la lavandería mediante el tratamiento de los datos. La información procesada permitirá a la empresa identificar patrones y tendencias para optimizar su trabajo.'
         },
         {
-          title: 'Gestor de Gastos',
+          title: 'Yard Sale',
           description:
-            'Sistema de gestor de gastos hecho en React y que utiliza localStorage para almacenar los datos del usuario en su dispositivo local. Herramienta para ayudar a los usuarios a administrar sus finanzas personales y hacer un seguimiento de sus gastos diarios.'
+            'E-commerce desarrollado con NextJS y la API de Platzi Fake Store, que proporciona datos ficticios de productos para la simulacion de un tienda virtual, filtrando por cateforias de productos y más.'
         },
         {
           title: 'Cinema Data',
@@ -163,9 +163,9 @@ export const languajes = {
             'Information system aims to improve the efficiency of the laundry through data processing. The processed information will allow the company to identify patterns and trends to optimize their work.'
         },
         {
-          title: 'Expense Manager',
+          title: 'Yard Sale',
           description:
-            'Expense management system built in React that uses localStorage to store user data on their local device. A tool to help users manage their personal finances and track their daily expenses.'
+            'E-commerce developed with Next.js and the Platzi Fake Store API, which provides fictional product data for the simulation of a virtual store, filtering by product categories and more.'
         },
         {
           title: 'Cinema Data',
