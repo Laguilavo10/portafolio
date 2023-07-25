@@ -2,7 +2,7 @@ import { CardProject } from '@components/CardProject'
 import { TitleSection } from '@components/TitleSection'
 import cine from '../../../public/moviesInfo.jpeg'
 import pokedex from '../../../public/pokedex.jpeg'
-import tablaPeriodica from '../../../public/periodicTable.jpeg'
+import bookLand from '../../../public/bookland.jpeg'
 import certifications from '../../../public/certifications.jpeg'
 import yardsale from '../../../public/yarsale.jpeg'
 import SI from '../../../public/SI.jpeg'
@@ -53,10 +53,10 @@ export function Projects() {
     },
     {
       title: lang.projects.data[4].title,
-      img: tablaPeriodica.src,
-      labels: ['React', 'CSS'],
-      repo: 'https://github.com/Laguilavo10/periodic-table/',
-      url: 'https://laguilavo10.github.io/periodic-table/',
+      img: bookLand.src,
+      labels: ['NextJS', 'Tailwind'],
+      repo: 'https://github.com/Laguilavo10/pruebas-tecnicas',
+      url: 'https://pruebas-tecnicas-one.vercel.app/',
       description: lang.projects.data[4].description
     }
 

@@ -81,9 +81,9 @@ export const languajes = {
             'Pokedex hecha en React que utiliza la PokeAPI para mostrar información detallada sobre cada Pokemon en un diseño fiel al pokedex original de primera generación. La navegacion  funciona dando click a las flechas del pokedex.'
         },
         {
-          title: 'Periodic Table',
+          title: 'BookLand',
           description:
-            'Tabla periódica interactiva que muestra información detallada de los elementos químicos obtenidos a través de una API. Está construido con el framework React y ofrece una experiencia de usuario intuitiva y atractiva. Al igual, con una correcta funcionalidad en mobile.'
+            'Bookland es una aplicación web creada como respuesta a la prueba tecnica formulada por el creador de contenido Midudev como parte de la primera prueba del proyecto pruebastecnicas.com. La aplicación permite a los usuarios crear y gestionar sus listas de lectura.'
         },
         {
           title: 'Certificaciones',
@@ -178,9 +178,9 @@ export const languajes = {
             'Pokedex built in React that utilizes the PokeAPI to display detailed information about each Pokemon in a design faithful to the original first-generation Pokedex. Navigation is done by clicking the arrows on the Pokedex.'
         },
         {
-          title: 'Periodic Table',
+          title: 'BookLand',
           description:
-            'Interactive periodic table that provides detailed information about chemical elements obtained through an API. It is built with the React framework and offers an intuitive and attractive user experience, with proper mobile functionality as well.'
+            'Bookland is a web application created in response to the technical test formulated by the content creator Midudev as part of the first test of the project pruebastecnicas.com. The application allows users to create and manage their reading lists.'
         },
         {
           title: 'Certifications',
