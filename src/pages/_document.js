@@ -19,7 +19,7 @@ export default function Document() {
         />
         <link rel='shortcut icon' href='/favicon.svg' type='image/x-icon' />
       </Head>
-      <body className='bg-primary-500'>
+      <body className='bg-primary-500 overflow-x-hidden'>
         <Main />
         <NextScript />
       </body>

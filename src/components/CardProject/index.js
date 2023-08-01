@@ -12,7 +12,7 @@ export function CardProject({
 }) {
   return (
     <>
-      <article className='relative flex max-w-xs flex-col gap-4 rounded-md border-2 border-orange-200 p-6 pb-14 transition-all ease-in hover:scale-105 hover:bg-opacity-20 lg:min-w-full'>
+      <article className='relative flex max-w-xs flex-col gap-4 rounded-md border-2 border-orange-200 p-6 pb-14 transition-all ease-in hover:scale-105 lg:min-w-full bg-primary-500'>
         <h4 className='text-white font-semibold text-xl'>{title}</h4>
         {/* Imagen */}
         <Image
