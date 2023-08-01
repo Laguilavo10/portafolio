@@ -37,7 +37,7 @@ export function Profile() {
             I&apos;m <br /> Andres Laguilavo
           </h1>
           <h3 className='bg-[linear-gradient(90deg,#f97316,#a6a8b0)] bg-clip-text text-3xl font-bold text-transparent'>
-            Frontend Developer
+            Software Developer
           </h3>
           <div className='flex flex-wrap gap-4'>
             {LINKS.map(({ label, icon, href }) => (

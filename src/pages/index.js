@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <LanguajeProvider>
       <main
-        className='relative m-auto flex min-h-screen w-full max-w-7xl flex-col gap-10 overflow-x-hidden bg-opacity-10 pb-28 font-poppins text-primary-200 sm:px-20'
+        className='relative m-auto flex min-h-screen w-full max-w-7xl flex-col gap-10 overflow-x-hidden bg-opacity-10 pb-28 font-poppins text-primary-200 sm:px-20 p-5'
       >
         <TopBar />
         <Profile />
