@@ -29,7 +29,11 @@ export const languajes = {
     aboutMe: {
       title: 'Sobre Mi',
       description:
-        'Soy un apasionado de la tecnología y el desarrollo web, siempre buscando nuevas formas de crear experiencias digitales únicas y emocionantes. Con mi experiencia en programación y diseño, puedo crear sitios web que sean tanto visualmente atractivos como funcionales. Siempre estoy buscando nuevos proyectos emocionantes que me permitan seguir aprendiendo y creciendo en mi carrera.'
+        'Desarrollador de Software con enfasis en las tecnologias Web. Me interesan especialmente los temas sociales y me
+gusta contribuir con soluciones a los problemas a través de la tecnología.He trabajado en proyectos tanto individuales
+como en equipo, dando siempre los mejores resultados. Además de mis habilidades técnicas, también me destaco por
+tener comunicacion efectiva, persona atenta al detalle, capaz de trabajar en equipo y poseer adaptabilidad a los
+cambios.'
     },
     experience: {
       title: 'Experiencia',
