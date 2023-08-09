@@ -29,11 +29,11 @@ export const languajes = {
     aboutMe: {
       title: 'Sobre Mi',
       description:
-        'Desarrollador de Software con enfasis en las tecnologias Web. Me interesan especialmente los temas sociales y me
+        `Desarrollador de Software con enfasis en las tecnologias Web. Me interesan especialmente los temas sociales y me
 gusta contribuir con soluciones a los problemas a través de la tecnología.He trabajado en proyectos tanto individuales
 como en equipo, dando siempre los mejores resultados. Además de mis habilidades técnicas, también me destaco por
 tener comunicacion efectiva, persona atenta al detalle, capaz de trabajar en equipo y poseer adaptabilidad a los
-cambios.'
+cambios`
     },
     experience: {
       title: 'Experiencia',
