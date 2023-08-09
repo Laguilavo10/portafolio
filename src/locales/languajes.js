@@ -28,12 +28,10 @@ export const languajes = {
     ],
     aboutMe: {
       title: 'Sobre Mi',
-      description:
-        `Desarrollador de Software con enfasis en las tecnologias Web. Me interesan especialmente los temas sociales y me
-gusta contribuir con soluciones a los problemas a través de la tecnología.He trabajado en proyectos tanto individuales
-como en equipo, dando siempre los mejores resultados. Además de mis habilidades técnicas, también me destaco por
-tener comunicacion efectiva, persona atenta al detalle, capaz de trabajar en equipo y poseer adaptabilidad a los
-cambios`
+      description: [
+        'Desarrollador de Software con énfasis en tecnologías Web. Me interesan especialmente los temas sociales y me gusta contribuir con soluciones a los problemas a través de la tecnología.',
+        'He trabajado en proyectos tanto individuales como en equipo, siempre obteniendo los mejores resultados. Además de mis habilidades técnicas, también me destaco por tener una comunicación efectiva, ser una persona atenta al detalle, capaz de trabajar en equipo y de adaptarme a los cambios.'
+      ]
     },
     experience: {
       title: 'Experiencia',
@@ -41,18 +39,19 @@ cambios`
         {
           job: 'Desarrollador de Software',
           dates: 'Mar-2022 / May-2023',
-          description: `Desarrollé un sistema de información para la lavanderia LAVAPOR 
-            utilizando Next.js y TypeScript para el frontend, Tailwind CSS para el 
-            diseño de la interfaz de usuario, JSON Web Tokens (JWT) para la autenticación 
-            y cookies, y MySQL para la base de datos. Este sistema de información facilito a la lavanderia administrar la informacion de los clientes, empleados y ventas,  lo que les permitió concentrarse en brindar un mejor servicio y aumentar su rentabilidad.`,
+          description: [
+            'Desarrollé un sistema de información para la lavanderia LAVAPOR         utilizando Next.js y TypeScript para el frontend, Tailwind CSS para el diseño de la interfaz de usuario, JSON Web Tokens (JWT) para la autenticación y cookies, y MySQL para la base de datos.',
+            'Este sistema de información facilito a la lavanderia administrar la informacion de los clientes, empleados y ventas,  lo que les permitió concentrarse en brindar un mejor servicio y aumentar su rentabilidad.'
+          ],
           company: 'Freelance',
           current: false
         },
         {
           job: 'Aprendiz SENA - Software Developer',
           dates: 'Sept-2022 / Mar-2023',
-          description:
-            'Proporcioné soporte para resolver problemas tecnológicos utilizando herramientas como .NET, Javascript, Microsoft y SQL. Adquirí habilidades en herramientas de generación de informes, especialmente en JasperReports, lo que me permitió producir informes precisos y eficientes. Participé en proyectos que mejoraron la eficiencia del equipo.',
+          description: [
+            'Resolví problemas tecnológicos utilizando herramientas como .NET, Javascript, Microsoft y SQL. Adquirí habilidades en herramientas de generación de informes, especialmente en JasperReports, lo que me permitió producir informes precisos y eficientes. Participé en proyectos que mejoraron la eficiencia del equipo.'
+          ],
           company: 'Soporte Logico SAS',
           current: false
         }
@@ -134,8 +133,10 @@ cambios`
     ],
     aboutMe: {
       title: 'About Me',
-      description:
-        'I am passionate about technology and web development, always seeking new ways to create unique and exciting digital experiences. With my experience in programming and design, I can create visually appealing and functional websites. I am always looking for exciting new projects that allow me to continue learning and growing in my career.'
+      description: [
+        'Software developer with a focus on Web technologies. I am particularly interested in social issues and I enjoy contributing solutions to problems through technology.',
+        'I have worked on both individual and team projects, always achieving the best results. In addition to my technical skills, I also stand out for my effective communication, attention to detail, ability to work in teams, and adaptability to changes.'
+      ]
     },
     experience: {
       title: 'Experience',
@@ -143,16 +144,19 @@ cambios`
         {
           job: 'Software Developer',
           dates: 'Mar 2022 / May 2023',
-          description:
-            'I developed an information system for LAVAPOR laundry using Next.js and TypeScript for the frontend, Tailwind CSS for the user interface design, JSON Web Tokens (JWT) for authentication and cookies, and MySQL for the database. This information system enabled the laundry to manage customer information, employees, and sales, allowing them to focus on providing better service and increasing profitability.',
+          description: [
+            'I developed an information system for LAVAPOR laundry using Next.js and TypeScript for the frontend, Tailwind CSS for the user interface design, JSON Web Tokens (JWT) for authentication and cookies, and MySQL for the database.',
+            'This information system enabled the laundry to manage customer information, employees, and sales, allowing them to focus on providing better service and increasing profitability.'
+          ],
           company: 'Freelance',
           current: false
         },
         {
           job: 'SENA Apprentice - Software Developer',
           dates: 'Sept 2022 / Mar 2023',
-          description:
-            'I provided support in resolving technological problems using tools such as .NET, Javascript, Microsoft, and SQL. I acquired skills in report generation tools, especially JasperReports, which allowed me to produce accurate and efficient reports. I participated in projects that improved team efficiency.',
+          description: [
+            'I resolved technological problems using tools such as .NET, Javascript, Microsoft, and SQL. I acquired skills in report generation tools, especially JasperReports, which allowed me to produce accurate and efficient reports. I participated in projects that improved team efficiency.'
+          ],
           company: 'Soporte Logico SAS',
           current: false
         }
