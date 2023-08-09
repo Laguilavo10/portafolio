@@ -29,7 +29,7 @@ export const languajes = {
     aboutMe: {
       title: 'Sobre Mi',
       description: [
-        'Desarrollador de Software con énfasis en tecnologías Web. Me interesan especialmente los temas sociales y me gusta contribuir con soluciones a los problemas a través de la tecnología.',
+        'Soy un tecnólogo en Análisis y Desarrollo de sistemas de información. Me interesan especialmente los temas sociales y me gusta contribuir con soluciones a los problemas a través de la tecnología.',
         'He trabajado en proyectos tanto individuales como en equipo, siempre obteniendo los mejores resultados. Además de mis habilidades técnicas, también me destaco por tener una comunicación efectiva, ser una persona atenta al detalle, capaz de trabajar en equipo y de adaptarme a los cambios.'
       ]
     },
@@ -134,7 +134,7 @@ export const languajes = {
     aboutMe: {
       title: 'About Me',
       description: [
-        'Software developer with a focus on Web technologies. I am particularly interested in social issues and I enjoy contributing solutions to problems through technology.',
+        'I am a technologist in Information Systems Analysis and Development. I am particularly interested in social issues and I enjoy contributing solutions to problems through technology.',
         'I have worked on both individual and team projects, always achieving the best results. In addition to my technical skills, I also stand out for my effective communication, attention to detail, ability to work in teams, and adaptability to changes.'
       ]
     },
