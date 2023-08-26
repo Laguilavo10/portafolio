@@ -39,7 +39,8 @@ export function Certifications() {
         ))}
       </ul>
       <Link
-        href='https://certifications-beige.vercel.app/'
+        href='https://my-certifications.vercel.app/user/andres-laguilavo-ec2dedef'
+        target='_blank'
         className='flex max-w-fit items-center gap-2 self-end justify-self-end transition-all duration-100 ease-in-out hover:scale-110 hover:text-orange-300'>
         <ArrowIcon className={'stroke-current'} />
         Ver Más
