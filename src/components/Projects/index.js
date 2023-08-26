@@ -12,20 +12,20 @@ export function Projects() {
   const { lang } = useLanguaje()
   const Projects = [
     {
+      title: lang.projects.data[5].title,
+      img: certifications.src,
+      labels: ['NextJS', 'Tailwind', 'Typescript'],
+      repo: 'https://github.com/Laguilavo10/certifications#readme',
+      url: 'https://my-certifications.vercel.app/',
+      description: lang.projects.data[5].description
+    },
+    {
       title: lang.projects.data[0].title,
       img: SI.src,
       labels: ['NextJS', 'Tailwind', 'SQL', 'JWT'],
       repo: '',
       url: 'https://www.linkedin.com/feed/update/urn:li:activity:7056676036511428608/',
       description: lang.projects.data[0].description
-    },
-    {
-      title: lang.projects.data[5].title,
-      img: certifications.src,
-      labels: ['NextJS', 'Tailwind', 'Typescript'],
-      repo: 'https://github.com/Laguilavo10/certifications',
-      url: 'https://laguilavo-certifications.vercel.app/',
-      description: lang.projects.data[5].description
     },
     {
       title: lang.projects.data[1].title,

@@ -91,7 +91,7 @@ export const languajes = {
         {
           title: 'Certificaciones',
           description:
-            'Galería de diplomas obtenidos a lo largo de mi carrera profesional desempeñándome como desarrollador de software. Construido con Next.js 13 utilizando App Router y haciendo uso de la herramienta Cloudinary para el alojamiento de las imágenes.'
+            'My-Certifications es una plataforma desarrollada para facilitar el almacenamiento y la exhibición de  certificados convirtiendose en una galería elegante y profesional para dar a conocer los reconocimientos a lo largo de la carrera profesional.'
         }
       ]
     },
@@ -193,7 +193,7 @@ export const languajes = {
         {
           title: 'Certifications',
           description:
-            'Diploma gallery obtained throughout my professional career as a software developer. Built with Next.js 13 using the App Router and making use of the Cloudinary tool for image hosting.'
+            "My-Certifications is a platform developed to facilitate the storage and display of certificates, becoming an elegant and professional gallery to showcase recognitions throughout one's professional career."
         }
       ]
     },
