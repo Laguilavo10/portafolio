@@ -8,7 +8,7 @@ export default async function handler(req, res) {
           `${process.env.API_KEY}:${process.env.API_SECRET}`
         ).toString('base64')})}`
       },
-      body: JSON.stringify({ expression: 'folder=Certifications/*' })
+      body: JSON.stringify({ expression: 'folder=Certifications/lagui2003@gmail.com' })
     }
 
     try {
