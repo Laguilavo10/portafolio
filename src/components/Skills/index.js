@@ -1,10 +1,11 @@
 import {
   CssIcon,
   GitIcon,
-  GraphQLIcon,
+  // GraphQLIcon,
   HtmlIcon,
   JavascriptIcon,
   NextjsIcon,
+  NodeJsIcon,
   ReactIcon,
   SQLIcon,
   TailwindIcon,
@@ -55,15 +56,20 @@ const Stack = [
     color: '[&>svg]:hover:fill-white'
   },
   {
+    name: 'NodeJs',
+    icon: <NodeJsIcon height='70' width='70' />,
+    color: '[&>svg]:hover:fill-[#8CC84B]'
+  },
+  {
     name: 'SQL',
     icon: <SQLIcon height='70' width='70' />,
     color: '[&>svg]:hover:fill-yellow-500'
-  },
-  {
-    name: 'GraphQL',
-    icon: <GraphQLIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-[#E10098]'
   }
+  // {
+  //   name: 'GraphQL',
+  //   icon: <GraphQLIcon height='70' width='70' />,
+  //   color: '[&>svg]:hover:fill-[#E10098]'
+  // }
 ]
 export function Skills() {
   const { lang } = useLanguaje()
