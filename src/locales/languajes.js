@@ -37,6 +37,17 @@ export const languajes = {
       title: 'Experiencia',
       data: [
         {
+          job: 'Freelance Desarrollador ReactJs',
+          dates: 'Aug-2023 / Actualidad',
+          description: [
+            'Desarrollo una aplicación web basada en la plantilla de diseño Minimals.cc, adaptándola a las necesidades específicas de los clientes. Implemento la lógica y la interfaz de usuario con React y Material-UI.',
+
+            'Integro distintas características al sistema de información que son requeridas desde un dahboard de tareas, utilizando buenas prácticas para obtener un código mantenible con el tiempo.'
+          ],
+          company: 'GMO Solutions',
+          current: true
+        },
+        {
           job: 'Desarrollador de Software',
           dates: 'Mar-2022 / May-2023',
           description: [
@@ -141,6 +152,16 @@ export const languajes = {
     experience: {
       title: 'Experience',
       data: [
+        {
+          job: 'Freelance ReactJs Developer',
+          dates: 'Aug 2023 - Present',
+          description: [
+            'Developed a web application based on the Minimals.cc design template, adapting it to the specific needs of clients. Implemented logic and user interface using React and Material-UI.',
+            'Integrated various features into the information system required from a task dashboard, utilizing best practices to achieve maintainable code over time.'
+          ],
+          company: 'GMO Solutions',
+          current: true
+        },
         {
           job: 'Software Developer',
           dates: 'Mar 2022 / May 2023',
