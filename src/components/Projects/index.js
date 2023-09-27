@@ -66,7 +66,7 @@ export function Projects() {
     <>
       <section id='projects' className='pt-16'>
         <TitleSection>{lang.projects.title}</TitleSection>
-        <section className='mt-8 flex w-full flex-wrap justify-center gap-9 lg:grid lg:grid-cols-3'>
+        <section className='flex flex-wrap justify-center w-full mt-8 gap-9 lg:grid lg:grid-cols-3'>
           {Projects.map(({ title, img, labels, url, repo, description }) => (
             <CardProject
               key={title}

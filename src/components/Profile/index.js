@@ -31,8 +31,8 @@ export function Profile() {
   ]
   return (
     <>
-      <section className='grid h-screen items-center justify-center pt-10 md:grid-cols-2 '>
-        <div className=' flex flex-col gap-6'>
+      <section className='grid items-center justify-center h-screen pt-10 opacity-0 md:grid-cols-2 animate-in '>
+        <div className='flex flex-col gap-6 '>
           <h1 className='text-6xl text-primary-200'>
             I&apos;m <br /> Andres Laguilavo
           </h1>
@@ -48,9 +48,9 @@ export function Profile() {
             ))}
           </div>
         </div>
-        {/* <aside className='m-auto hidden md:flex'> */}
+        {/* <aside className='hidden m-auto md:flex'> */}
         <motion.div
-          className='m-auto hidden w-full justify-center md:flex'
+          className='justify-center hidden w-full m-auto md:flex'
           animate={{ y: [8, -8] }}
           transition={{
             duration: 1,
