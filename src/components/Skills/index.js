@@ -1,11 +1,15 @@
 import {
+  AWSIcon,
+  AstroIcon,
   CssIcon,
   GitIcon,
+  GraphQLIcon,
   // GraphQLIcon,
   HtmlIcon,
   JavascriptIcon,
   NextjsIcon,
   NodeJsIcon,
+  PythonIcon,
   ReactIcon,
   SQLIcon,
   TailwindIcon,
@@ -18,58 +22,73 @@ const Stack = [
   {
     name: 'HTML',
     icon: <HtmlIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-[#E34F26]'
+    className: '[&>svg]:hover:fill-[#E34F26]'
   },
   {
     name: 'CSS',
     icon: <CssIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-[#1572B6]'
+    className: '[&>svg]:hover:fill-[#1572B6]'
   },
   {
     name: 'JavaScript',
     icon: <JavascriptIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-[#F7DF1E]'
+    className: '[&>svg]:hover:fill-[#F7DF1E]'
   },
   {
     name: 'TypeScript',
     icon: <TypescriptIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-[#007ACC]'
+    className: '[&>svg]:hover:fill-[#007ACC]'
   },
   {
     name: 'React',
     icon: <ReactIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-[#61DAFB]'
+    className: '[&>svg]:hover:fill-[#61DAFB]'
   },
   {
     name: 'TailwindCSS',
     icon: <TailwindIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-[#06B6D4]'
+    className: '[&>svg]:hover:fill-[#06B6D4]'
   },
   {
     name: 'Git',
     icon: <GitIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-[#F05032]'
+    className: '[&>svg]:hover:fill-[#F05032]'
   },
   {
     name: 'NextJS',
     icon: <NextjsIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-white'
+    className: '[&>svg]:hover:fill-white'
   },
   {
     name: 'NodeJs',
     icon: <NodeJsIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-[#8CC84B]'
+    className: '[&>svg]:hover:fill-[#8CC84B]'
   },
   {
     name: 'SQL',
     icon: <SQLIcon height='70' width='70' />,
-    color: '[&>svg]:hover:fill-yellow-500'
+    className: '[&>svg]:hover:fill-yellow-500'
+  },
+  {
+    name: 'GraphQL',
+    icon: <GraphQLIcon height='70' width='70' />,
+    className: '[&>svg]:hover:fill-[#E10098]'
+  },
+  {
+    name: 'Astro',
+    icon: <AstroIcon height='70' width='70' />,
+    className: '[&>svg]:hover:fill-[#ff5d01]'
+  },
+  {
+    name: 'Python',
+    icon: <PythonIcon height='70' width='70' />,
+    className: '[&_#blue]:hover:fill-[url(#paint0_linear_87_8204)] [&_#yellow]:hover:fill-[url(#paint1_linear_87_8204)]'
+  },
+  {
+    name: 'AWS',
+    icon: <AWSIcon height='70' width='70' />,
+    className: '[&_#orange]:hover:fill-[#F90] [&_#gray]:hover:fill-[#252F3E]'
   }
-  // {
-  //   name: 'GraphQL',
-  //   icon: <GraphQLIcon height='70' width='70' />,
-  //   color: '[&>svg]:hover:fill-[#E10098]'
-  // }
 ]
 export function Skills() {
   const { lang } = useLanguaje()
@@ -78,10 +97,11 @@ export function Skills() {
       <section id='skills' className='pt-16'>
         <TitleSection>{lang.skills.title}</TitleSection>
         <ul className='my-10 flex grid-cols-5 flex-wrap justify-center gap-4 sm:grid'>
-          {Stack.map(({ name, icon, color = 'white' }) => (
+          {Stack.map(({ name, icon, className }) => (
             <li
               key={name}
-              className={`flex flex-col items-center gap-2 transition-all duration-100 ease-out hover:scale-125 ${color} [&>svg]:fill-white`}>
+              className={`flex flex-col items-center gap-2 transition-all duration-100 ease-out hover:scale-125 ${className} [&>svg]:fill-white`}
+            >
               {icon}
               <span className='text-l text-primary-300'>{name}</span>
             </li>
