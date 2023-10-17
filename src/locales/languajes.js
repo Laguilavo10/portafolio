@@ -38,14 +38,14 @@ export const languajes = {
       data: [
         {
           job: 'Freelance Desarrollador ReactJs',
-          dates: 'Aug-2023 / Actualidad',
+          dates: 'Aug-2023 / Oct-2023',
           description: [
             'Desarrollo una aplicación web basada en la plantilla de diseño Minimals.cc, adaptándola a las necesidades específicas de los clientes. Implemento la lógica y la interfaz de usuario con React y Material-UI.',
 
             'Integro distintas características al sistema de información que son requeridas desde un dahboard de tareas, utilizando buenas prácticas para obtener un código mantenible con el tiempo.'
           ],
           company: 'GMO Solutions',
-          current: true
+          current: false
         },
         {
           job: 'Desarrollador de Software',
