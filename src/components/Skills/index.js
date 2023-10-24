@@ -4,7 +4,7 @@ import {
   CssIcon,
   GitIcon,
   GraphQLIcon,
-  // GraphQLIcon,
+  MongoDBIcon,
   HtmlIcon,
   JavascriptIcon,
   NextjsIcon,
@@ -82,12 +82,18 @@ const Stack = [
   {
     name: 'Python',
     icon: <PythonIcon height='70' width='70' />,
-    className: '[&_#blue]:hover:fill-[url(#paint0_linear_87_8204)] [&_#yellow]:hover:fill-[url(#paint1_linear_87_8204)]'
+    className:
+      '[&_#blue]:hover:fill-[url(#paint0_linear_87_8204)] [&_#yellow]:hover:fill-[url(#paint1_linear_87_8204)]'
   },
   {
     name: 'AWS',
     icon: <AWSIcon height='70' width='70' />,
     className: '[&_#orange]:hover:fill-[#F90] [&_#gray]:hover:fill-[#252F3E]'
+  },
+  {
+    name: 'MongoDB',
+    className: '[&>svg>circle]:hover:!fill-[#13AA52] [&>svg>path]:hover:!fill-[#FFFFFF]',
+    icon: <MongoDBIcon height='70' width='70' />
   }
 ]
 export function Skills() {
