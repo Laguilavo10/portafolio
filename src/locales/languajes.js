@@ -103,6 +103,11 @@ export const languajes = {
           title: 'Certificaciones',
           description:
             'My-Certifications es una plataforma desarrollada para facilitar el almacenamiento y la exhibición de  certificados convirtiendose en una galería elegante y profesional para dar a conocer los reconocimientos a lo largo de la carrera profesional.'
+        },
+        {
+          title: 'Cost-Manager',
+          description:
+            'Plataforma desarrollada para simplificar el seguimiento de gastos diarios. El usuario puede registrar sus gastos y visualizarlos en una tabla y gráficos para poder llevar un registro de sus ingresos y egresos permitiendo mejorando su vida financiera.'
         }
       ]
     },
@@ -215,6 +220,11 @@ export const languajes = {
           title: 'Certifications',
           description:
             "My-Certifications is a platform developed to facilitate the storage and display of certificates, becoming an elegant and professional gallery to showcase recognitions throughout one's professional career."
+        },
+        {
+          title: 'Cost-Manager',
+          description:
+            'Platform developed to simplify the tracking of daily expenses. The user can register his expenses and visualize them in a table and graphs in order to keep track of his income and expenses allowing him to improve his financial life.'
         }
       ]
     },

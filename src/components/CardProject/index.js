@@ -23,11 +23,11 @@ export function CardProject({
           alt='title'
         />
         {/* Etiquetas */}
-        <ul className='flex gap-3'>
+        <ul className='flex gap-3 items-center'>
           {labels.map((label, index) => (
             <li
               key={index}
-              className=' rounded-md bg-primary-700 px-2 py-1 text-sm font-extrabold text-orange-500'>
+              className=' rounded-md bg-primary-700 px-2 py-1 text-sm font-extrabold text-orange-500 text-center'>
               {label}
             </li>
           ))}

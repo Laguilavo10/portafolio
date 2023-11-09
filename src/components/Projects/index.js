@@ -1,7 +1,7 @@
 import { CardProject } from '@components/CardProject'
 import { TitleSection } from '@components/TitleSection'
 import cine from '../../../public/moviesInfo.jpeg'
-import pokedex from '../../../public/pokedex.jpeg'
+import costManager from '../../../public/cost-manager.jpeg'
 import bookLand from '../../../public/bookland.jpeg'
 import certifications from '../../../public/certifications.jpeg'
 import yardsale from '../../../public/yarsale.jpeg'
@@ -12,10 +12,18 @@ export function Projects() {
   const { lang } = useLanguaje()
   const Projects = [
     {
+      title: lang.projects.data[6].title,
+      img: costManager.src,
+      labels: ['NextJS', 'API Rest', 'Express', 'Auth0'],
+      repo: 'https://github.com/Laguilavo10/cost-manager',
+      url: 'https://personal-cost-manager.vercel.app',
+      description: lang.projects.data[6].description
+    },
+    {
       title: lang.projects.data[5].title,
       img: certifications.src,
       labels: ['NextJS', 'Tailwind', 'Typescript'],
-      repo: 'https://github.com/Laguilavo10/certifications#readme',
+      repo: 'https://github.com/Laguilavo10/certifications',
       url: 'https://my-certifications.vercel.app/',
       description: lang.projects.data[5].description
     },
@@ -43,14 +51,14 @@ export function Projects() {
       url: 'https://laguilavo10.github.io/WebMovies/',
       description: lang.projects.data[2].description
     },
-    {
-      title: lang.projects.data[3].title,
-      img: pokedex.src,
-      labels: ['React', 'CSS'],
-      repo: 'https://github.com/Laguilavo10/pokedex-kanto',
-      url: 'https://laguilavo10.github.io/pokedex-kanto/',
-      description: lang.projects.data[3].description
-    },
+    // {
+    //   title: lang.projects.data[3].title,
+    //   img: pokedex.src,
+    //   labels: ['React', 'CSS'],
+    //   repo: 'https://github.com/Laguilavo10/pokedex-kanto',
+    //   url: 'https://laguilavo10.github.io/pokedex-kanto/',
+    //   description: lang.projects.data[3].description
+    // },
     {
       title: lang.projects.data[4].title,
       img: bookLand.src,
