@@ -22,7 +22,7 @@ export function Projects() {
     {
       title: lang.projects.data[5].title,
       img: certifications.src,
-      labels: ['NextJS', 'Tailwind', 'Typescript'],
+      labels: ['NextJS', 'Clerk', 'MongoDB'],
       repo: 'https://github.com/Laguilavo10/certifications',
       url: 'https://my-certifications.vercel.app/',
       description: lang.projects.data[5].description

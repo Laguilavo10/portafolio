@@ -1,10 +1,17 @@
-import { createContext, useState, useContext } from 'react'
+import { createContext, useState, useContext, useEffect } from 'react'
 import { languajes } from '../locales/languajes'
+import { useRouter } from 'next/router'
+import { validateLang } from 'lib/validateLang'
 const LanguajeSite = createContext()
 
 export const LanguajeProvider = ({ children }) => {
-  // eslint-disable-next-line dot-notation
-  const [lang, setLang] = useState(languajes['ES'])
+  const router = useRouter()
+  const [lang, setLang] = useState(languajes.EN)
+  useEffect(() => {
+    const langSelected = validateLang(router?.query?.lang)
+    setLang(languajes[langSelected])
+  }, [router?.query?.lang])
+
   return (
     <LanguajeSite.Provider value={{ lang, setLang }}>
       {children}
