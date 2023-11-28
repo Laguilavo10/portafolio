@@ -2,7 +2,7 @@ import { CardProject } from '@components/CardProject'
 import { TitleSection } from '@components/TitleSection'
 import cine from '../../../public/moviesInfo.jpeg'
 import costManager from '../../../public/cost-manager.jpeg'
-import bookLand from '../../../public/bookland.jpeg'
+import cakeshop from '../../../public/cakeshop.jpeg'
 import certifications from '../../../public/certifications.jpeg'
 import yardsale from '../../../public/yarsale.jpeg'
 import SI from '../../../public/SI.jpeg'
@@ -51,20 +51,12 @@ export function Projects() {
       url: 'https://laguilavo10.github.io/WebMovies/',
       description: lang.projects.data[2].description
     },
-    // {
-    //   title: lang.projects.data[3].title,
-    //   img: pokedex.src,
-    //   labels: ['React', 'CSS'],
-    //   repo: 'https://github.com/Laguilavo10/pokedex-kanto',
-    //   url: 'https://laguilavo10.github.io/pokedex-kanto/',
-    //   description: lang.projects.data[3].description
-    // },
     {
       title: lang.projects.data[4].title,
-      img: bookLand.src,
-      labels: ['NextJS', 'Tailwind'],
-      repo: 'https://github.com/Laguilavo10/pruebas-tecnicas',
-      url: 'https://pruebas-tecnicas-one.vercel.app/',
+      img: cakeshop.src,
+      labels: ['Astro', 'View Transitions', 'Contentful'],
+      repo: 'https://github.com/Laguilavo10/cake-shop',
+      url: 'https://cake-shop-omega.vercel.app/',
       description: lang.projects.data[4].description
     }
 

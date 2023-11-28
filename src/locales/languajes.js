@@ -95,9 +95,9 @@ export const languajes = {
             'Pokedex hecha en React que utiliza la PokeAPI para mostrar información detallada sobre cada Pokemon en un diseño fiel al pokedex original de primera generación. La navegacion  funciona dando click a las flechas del pokedex.'
         },
         {
-          title: 'BookLand',
+          title: 'Cake-Shop',
           description:
-            'Bookland es una aplicación web creada como respuesta a la prueba tecnica formulada por el creador de contenido Midudev como parte de la primera prueba del proyecto pruebastecnicas.com. La aplicación permite a los usuarios crear y gestionar sus listas de lectura.'
+            'Cake-Shop esta diseñada para la exhibición y venta de pasteles. Los usuarios pueden explorar una variedad de pasteles únicos y personalizados, realizar pedidos por medio de WhatsApp y contactar para solicitar un pastel de acuerdo a sus necesidades.'
         },
         {
           title: 'Certificaciones',
@@ -212,9 +212,9 @@ export const languajes = {
             'Pokedex built in React that utilizes the PokeAPI to display detailed information about each Pokemon in a design faithful to the original first-generation Pokedex. Navigation is done by clicking the arrows on the Pokedex.'
         },
         {
-          title: 'BookLand',
+          title: 'Cake-Shop',
           description:
-            'Bookland is a web application created in response to the technical test formulated by the content creator Midudev as part of the first test of the project pruebastecnicas.com. The application allows users to create and manage their reading lists.'
+            'Cake-Shop is designed for the display and sale of cakes. Users can explore a variety of unique and customized cakes, place orders via WhatsApp, and contact to request a cake according to their needs.'
         },
         {
           title: 'Certifications',
