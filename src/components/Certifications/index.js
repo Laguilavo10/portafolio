@@ -23,7 +23,8 @@ export function Certifications() {
   return (
     <section
       className='flex flex-col overflow-hidden pt-16'
-      id='certifications'>
+      id='certifications'
+    >
       <TitleSection>{lang.certifications.title}</TitleSection>
       <ul className='w-[calc(300px * 10)] mt-16 mb-4 flex animate-slider snap-x gap-7 hover:animate-stop'>
         {duplicateImages.map((image, index) => (
@@ -41,9 +42,10 @@ export function Certifications() {
       <Link
         href='https://my-certifications.vercel.app/user/andres-laguilavo-ec2dedef'
         target='_blank'
-        className='flex max-w-fit items-center gap-2 self-end justify-self-end transition-all duration-100 ease-in-out hover:scale-110 hover:text-orange-300'>
+        className='z-[100] mr-2 mb-2 flex max-w-fit items-center gap-2 self-end justify-self-end rounded-md bg-primary-500/50 py-1 px-2 text-white transition-all duration-100 ease-in-out hover:scale-110 hover:text-orange-400/90'
+      >
         <ArrowIcon className={'stroke-current'} />
-        Ver Más
+        {lang.certifications.footer}
       </Link>
     </section>
   )

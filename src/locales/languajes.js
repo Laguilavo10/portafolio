@@ -112,7 +112,8 @@ export const languajes = {
       ]
     },
     certifications: {
-      title: 'Certificaciones'
+      title: 'Certificaciones',
+      footer: 'Ver Más'
     },
     contact: {
       title: 'Contacto',
@@ -232,7 +233,8 @@ export const languajes = {
       title: 'Skills'
     },
     certifications: {
-      title: 'Certifications'
+      title: 'Certifications',
+      footer: 'See More'
     },
     contact: {
       title: 'Contact',
