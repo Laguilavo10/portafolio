@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Andres Laguilavo</title>
+        <title>Andres Laguilavo | Desarrollador de Software - JavaScript - React - NextJS</title>
       </Head>
       <Component {...pageProps} />
       <Analytics />
