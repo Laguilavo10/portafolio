@@ -36,6 +36,7 @@ export function TopBar() {
         >
           <button
             type='button'
+            name='menu-button'
             className='absolute top-1 right-2 z-10 ml-1 inline-flex h-8 w-8 cursor-pointer items-center self-end justify-self-end rounded-lg text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 lg:hidden '
             onClick={() => setIsOpenMenu(!isOpenMenu)}
           >

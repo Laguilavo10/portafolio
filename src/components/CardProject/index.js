@@ -23,7 +23,7 @@ export function CardProject({
             max-w-xs flex-col gap-4 rounded-md border-2 p-6 lg:min-w-full w-full items-center
           `}
         >
-          <h4 className='text-xl font-semibold text-white uppercase'>{title}</h4>
+          <h3 className='text-xl font-semibold text-white uppercase'>{title}</h3>
           {/* Imagen */}
           <Image
             src={img}
