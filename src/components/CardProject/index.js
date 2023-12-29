@@ -1,4 +1,5 @@
 import { GitHubIcon, WebIcon } from '@assets/icons'
+import { Glow } from '@codaworks/react-glow'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -8,52 +9,65 @@ export function CardProject({
   labels,
   url,
   repo,
-  description = ''
+  description = '',
+  color,
+  styles
 }) {
   return (
     <>
-      <article className='relative flex max-w-xs flex-col gap-4 rounded-md border-2 border-orange-200 p-6 pb-14 transition-all ease-in hover:scale-105 lg:min-w-full bg-primary-500'>
-        <h4 className='text-white font-semibold text-xl'>{title}</h4>
-        {/* Imagen */}
-        <Image
-          src={img}
-          width='400'
-          height='400'
-          className='rounded-md object-cover'
-          alt='title'
-        />
-        {/* Etiquetas */}
-        <ul className='flex gap-3 items-center'>
-          {labels.map((label, index) => (
-            <li
-              key={index}
-              className=' rounded-md bg-primary-700 px-2 py-1 text-sm font-extrabold text-orange-500 text-center'>
-              {label}
-            </li>
-          ))}
-        </ul>
-        {/* Descripcion */}
-        <p className='text-sm'>{description}</p>
-        {/* Links */}
-        <div className='self absolute bottom-5 right-6 flex gap-5'>
-          {repo && (
-            <Link
-              target={'_blank'}
-              href={repo}
-              className='transition-all duration-1000 ease-out [&>svg]:hover:fill-white '>
-              <GitHubIcon width='25' height='25' />
-            </Link>
-          )}
-          {url && (
-            <Link
-              target={'_blank'}
-              href={url}
-              className='transition-all duration-100 ease-out [&>svg]:hover:stroke-white stroke-[#9aa2ad]  '>
-              <WebIcon width='25' height='25' />
-            </Link>
-          )}
-        </div>
-      </article>
+      <Glow color={color} className='flex justify-center'>
+        <article
+          className={`
+          flex h-full flex-col justify-between gap-4 rounded-md border-primary-200/50 bg-primary-500 p-6 border-[3px] ${color} 
+           text-center  ${styles} glow:border-glow  text-white
+            max-w-xs flex-col gap-4 rounded-md border-2 p-6 lg:min-w-full w-full items-center
+          `}
+        >
+          <h4 className='text-xl font-semibold text-white uppercase'>{title}</h4>
+          {/* Imagen */}
+          <Image
+            src={img}
+            width='400'
+            height='400'
+            className='object-cover rounded-md'
+            alt='title'
+          />
+          {/* Etiquetas */}
+          <ul className='flex items-center gap-3'>
+            {labels.map((label, index) => (
+              <li
+                key={index}
+                className='px-2 py-1 text-sm font-extrabold text-center text-orange-500 rounded-md bg-primary-700'
+              >
+                {label}
+              </li>
+            ))}
+          </ul>
+          {/* Descripcion */}
+          <p className='text-sm'>{description}</p>
+          {/* Links */}
+          <div className='flex gap-5 w-full justify-end'>
+            {repo && (
+              <Link
+                target={'_blank'}
+                href={repo}
+                className='transition-all duration-1000 ease-out [&>svg]:hover:fill-white '
+              >
+                <GitHubIcon width='25' height='25' />
+              </Link>
+            )}
+            {url && (
+              <Link
+                target={'_blank'}
+                href={url}
+                className='stroke-[#9aa2ad] transition-all duration-100 ease-out [&>svg]:hover:stroke-white  '
+              >
+                <WebIcon width='25' height='25' />
+              </Link>
+            )}
+          </div>
+        </article>
+      </Glow>
     </>
   )
 }
