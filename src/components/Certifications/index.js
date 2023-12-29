@@ -43,6 +43,7 @@ export function Certifications() {
         href='https://my-certifications.vercel.app/user/andres-laguilavo-ec2dedef'
         target='_blank'
         className='z-[100] mr-2 mb-2 flex max-w-fit items-center gap-2 self-end justify-self-end rounded-md bg-primary-500/50 py-1 px-2 text-white transition-all duration-100 ease-in-out hover:scale-110 hover:text-orange-400/90'
+        aria-description='See More Certifications of Andres Felipe Laguilavo Ruiz'
       >
         <ArrowIcon className={'stroke-current'} />
         {lang.certifications.footer}
