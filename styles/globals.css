@@ -7,12 +7,21 @@ html {
 }
 
 body {
-  background-image: radial-gradient(rgba(148, 148, 148, 0.3) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgba(148, 148, 148, 0.3) 1px,
+    transparent 1px
+  );
   background-size: 20px 20px;
 }
 
 .animate-in {
   animation: animateIn 0.3s ease 0.15s both;
+}
+
+@media (width < 768px) {
+  .animate-in {
+    animation: none;
+  }
 }
 
 @keyframes animateIn {
