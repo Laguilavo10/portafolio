@@ -22,7 +22,7 @@ export function LanguajeToogle() {
   return (
     <>
       <div
-        className='relative ml-8 flex h-6 w-[2px] cursor-pointer items-center justify-center bg-white'
+        className='lg:relative ml-8 flex h-6 w-[2px] cursor-pointer items-center justify-center bg-white absolute -top-6 left-3 lg:left-0 lg:top-0 '
         onClick={handleLanguaje}
       >
         <span
