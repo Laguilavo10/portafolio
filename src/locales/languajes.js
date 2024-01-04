@@ -225,7 +225,7 @@ export const languajes = {
         {
           title: 'Cost-Manager',
           description:
-            'Platform developed to simplify the tracking of daily expenses. The user can register his expenses and visualize them in a table and graphs in order to keep track of his income and expenses allowing him to improve his financial life.'
+            'Platform developed to simplify the tracking of daily expenses.</br></br> The user can register his expenses and visualize them in a table and graphs in order to keep track of his income and expenses allowing him to improve his financial life.'
         }
       ]
     },
