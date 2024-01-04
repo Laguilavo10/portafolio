@@ -77,37 +77,37 @@ export const languajes = {
         {
           title: 'SI Lavapor',
           description:
-            'Sistema de información busca mejorar la eficiencia de la lavandería mediante el tratamiento de los datos. La información procesada permitirá a la empresa identificar patrones y tendencias para optimizar su trabajo.'
+            'Sistema de información busca mejorar la eficiencia de la lavandería mediante el tratamiento de los datos. </br></br> La información procesada permitirá a la empresa identificar patrones y tendencias para optimizar su trabajo.'
         },
         {
           title: 'Yard Sale',
           description:
-            'E-commerce desarrollado con NextJS y la API de Platzi Fake Store, que proporciona datos ficticios de productos para la simulacion de un tienda virtual, filtrando por cateforias de productos y más.'
+            'E-commerce desarrollado con NextJS y la API de Platzi Fake Store. </br></br>Proporciona datos ficticios de productos para la simulacion de un tienda virtual, filtrando por cateforias de productos y más.'
         },
         {
           title: 'Cinema Data',
           description:
-            'Plataforma para explorar películas, los usuarios pueden encontrar una amplia selección de películas organizadas por género, tendencias, ademas. Proyecto usando React y la API de The Movie Database.'
+            'Plataforma para explorar películas, los usuarios pueden encontrar una amplia selección de películas organizadas por género, tendencias, ademas.</br></br> Proyecto usando React y la API de The Movie Database.'
         },
         {
           title: 'Pokedex',
           description:
-            'Pokedex hecha en React que utiliza la PokeAPI para mostrar información detallada sobre cada Pokemon en un diseño fiel al pokedex original de primera generación. La navegacion  funciona dando click a las flechas del pokedex.'
+            'Pokedex hecha en React que utiliza la PokeAPI para mostrar información detallada sobre cada Pokemon en un diseño fiel al pokedex original de primera generación.</br></br> La navegacion  funciona dando click a las flechas del pokedex.'
         },
         {
           title: 'Cake-Shop',
           description:
-            'Cake-Shop esta diseñada para la exhibición y venta de pasteles. Los usuarios pueden explorar una variedad de pasteles únicos y personalizados, realizar pedidos por medio de WhatsApp y contactar para solicitar un pastel de acuerdo a sus necesidades.'
+            'Cake-Shop esta diseñada para la exhibición y venta de pasteles.</br></br> Los usuarios pueden explorar una variedad de pasteles únicos y personalizados, realizar pedidos por medio de WhatsApp y contactar para solicitar un pastel de acuerdo a sus necesidades.'
         },
         {
           title: 'Certificaciones',
           description:
-            'My-Certifications es una plataforma desarrollada para facilitar el almacenamiento y la exhibición de  certificados convirtiendose en una galería elegante y profesional para dar a conocer los reconocimientos a lo largo de la carrera profesional.'
+            'My-Certifications es una plataforma desarrollada para facilitar el almacenamiento y la exhibición de  certificados. </br></br>Galería elegante y profesional para dar a conocer los reconocimientos a lo largo de la carrera profesional.'
         },
         {
           title: 'Cost-Manager',
           description:
-            'Plataforma desarrollada para simplificar el seguimiento de gastos diarios. El usuario puede registrar sus gastos y visualizarlos en una tabla y gráficos para poder llevar un registro de sus ingresos y egresos permitiendo mejorando su vida financiera.'
+            'Plataforma desarrollada para simplificar el seguimiento de gastos diarios. </br></br>El usuario puede registrar sus gastos y visualizarlos en una tabla y gráficos para poder llevar un registro de sus ingresos y egresos permitiendo mejorando su vida financiera.'
         }
       ]
     },
@@ -195,17 +195,17 @@ export const languajes = {
         {
           title: 'SI Lavapor',
           description:
-            'Information system aims to improve the efficiency of the laundry through data processing. The processed information will allow the company to identify patterns and trends to optimize their work.'
+            'Information system aims to improve the efficiency of the laundry through data processing.</br></br> The processed information will allow the company to identify patterns and trends to optimize their work.'
         },
         {
           title: 'Yard Sale',
           description:
-            'E-commerce developed with Next.js and the Platzi Fake Store API, which provides fictional product data for the simulation of a virtual store, filtering by product categories and more.'
+            'E-commerce developed with Next.js and the Platzi Fake Store API. </br></br> Provides fictional product data for the simulation of a virtual store, filtering by product categories and more.'
         },
         {
           title: 'Cinema Data',
           description:
-            'Platform for exploring movies, where users can find a wide selection of movies organized by genre, trends, and more. This project is built using React and The Movie Database API.'
+            'Platform for exploring movies, where users can find a wide selection of movies organized by genre, trends, and more.</br></br> This project is built using React and The Movie Database API.'
         },
         {
           title: 'Pokedex',
@@ -215,12 +215,12 @@ export const languajes = {
         {
           title: 'Cake-Shop',
           description:
-            'Cake-Shop is designed for the display and sale of cakes. Users can explore a variety of unique and customized cakes, place orders via WhatsApp, and contact to request a cake according to their needs.'
+            'Cake-Shop is designed for the display and sale of cakes.</br></br> Users can explore a variety of unique and customized cakes, place orders via WhatsApp, and contact to request a cake according to their needs.'
         },
         {
           title: 'Certifications',
           description:
-            "My-Certifications is a platform developed to facilitate the storage and display of certificates, becoming an elegant and professional gallery to showcase recognitions throughout one's professional career."
+            "My-Certifications is a platform developed to facilitate the storage and display of certificates.</br></br>Elegant and professional gallery to showcase recognitions throughout one's professional career."
         },
         {
           title: 'Cost-Manager',

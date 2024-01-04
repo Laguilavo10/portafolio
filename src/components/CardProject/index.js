@@ -18,18 +18,20 @@ export function CardProject({
       <Glow color={color} className='flex justify-center'>
         <article
           className={`
-          flex h-full flex-col justify-between gap-4 rounded-md border-primary-200/50 bg-primary-500 p-6 border-[3px] ${color} 
-           text-center  ${styles} glow:border-glow  text-white
-            max-w-xs flex-col gap-4 rounded-md border-2 p-6 lg:min-w-full w-full items-center
+          flex h-full flex-col justify-between gap-4 rounded-md border-[3px] border-primary-200/50 bg-primary-500 p-6 ${color} 
+             ${styles} w-full  max-w-xs
+            flex-col items-center gap-4 rounded-md border-2 p-6 text-white glow:border-glow lg:min-w-full
           `}
         >
-          <h3 className='text-xl font-semibold text-white uppercase'>{title}</h3>
+          <h3 className='text-xl font-semibold uppercase text-white'>
+            {title}
+          </h3>
           {/* Imagen */}
           <Image
             src={img}
             width='400'
             height='400'
-            className='object-cover rounded-md'
+            className='rounded-md object-cover'
             alt='title'
           />
           {/* Etiquetas */}
@@ -37,16 +39,19 @@ export function CardProject({
             {labels.map((label, index) => (
               <li
                 key={index}
-                className='px-2 py-1 text-sm font-extrabold text-center text-orange-500 rounded-md bg-primary-700'
+                className='rounded-md bg-primary-700 px-2 py-1 text-center text-sm font-extrabold text-orange-500'
               >
                 {label}
               </li>
             ))}
           </ul>
           {/* Descripcion */}
-          <p className='text-sm'>{description}</p>
+          <p
+            className='text-sm'
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
           {/* Links */}
-          <div className='flex gap-5 w-full justify-end'>
+          <div className='flex w-full justify-end gap-5'>
             {repo && (
               <Link
                 target={'_blank'}
