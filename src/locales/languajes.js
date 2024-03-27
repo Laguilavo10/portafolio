@@ -40,7 +40,7 @@ export const languajes = {
           job: 'Desarrollador Frontend - FitnessUY',
           dates: 'Feb-2024',
           description: [
-            '<a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">FitnessUY<a/> es un ecommerce de ropa deportiva dirigido principalmente al público uruguayo.',
+            '<a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a> es un ecommerce de ropa deportiva dirigido principalmente al público uruguayo.',
 
             'Desarrollo e implemento la interfaz de usuario y la lógica del frontend. Trabajando en conjunto con el equipo de diseño, adapto la aplicación web a las necesidades del cliente. Colaboro estrechamente con el equipo de backend y diseño para llevar un correcto organizamiento de responsabilidades.'
           ],
@@ -51,7 +51,7 @@ export const languajes = {
           job: 'Desarrollador Frontend - Paydrink',
           dates: 'Ene-2024 / Mar-2024',
           description: [
-            'Contribuí al desarrollo de <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink<a/>, un marketplace de bebidas para boliches en Argentina. Mi labor consistió en el desarrollo y optimización del código del lado del frontend, lo que permitió la evolución continua del proyecto. ',
+            'Contribuí al desarrollo de <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, un marketplace de bebidas para boliches en Argentina. Mi labor consistió en el desarrollo y optimización del código del lado del frontend, lo que permitió la evolución continua del proyecto.',
 
             'Trabajé en equipo de manera organizada, lo que nos permitió llevar a cabo el proyecto de manera exitosa.'
           ],
@@ -184,7 +184,7 @@ export const languajes = {
           job: 'Frontend Developer - FitnessUY',
           dates: 'Feb-2024',
           description: [
-            '<a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">FitnessUY<a/> is an ecommerce for sportswear mainly aimed at the Uruguayan public.',
+            '<a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a> is an ecommerce for sportswear mainly aimed at the Uruguayan public.',
 
             'I develop and implement the user interface and frontend logic. Working together with the design team, I adapt the web application to the client`s needs. I collaborate closely with the backend and design team to maintain a correct organization of responsibilities>.'
           ],
@@ -195,7 +195,7 @@ export const languajes = {
           job: 'Frontend Developer - Paydrink',
           dates: 'Jan-2024 / Mar-2024',
           description: [
-            'I contributed to the development of <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink<a/>, a beverage marketplace for nightclubs in Argentina. My work consisted of developing and optimizing the code, which allowed for the continuous evolution of the project. ',
+            'I contributed to the development of <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, a beverage marketplace for nightclubs in Argentina. My work consisted of developing and optimization of the frontend code, which allowed for the continuous evolution of the project. ',
 
             'I worked in an organized team, which allowed us to successfully carry out the project.'
           ],
