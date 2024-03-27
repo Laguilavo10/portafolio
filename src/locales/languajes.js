@@ -37,10 +37,32 @@ export const languajes = {
       title: 'Experiencia',
       data: [
         {
+          job: 'Desarrollador Frontend - FitnessUY',
+          dates: 'Feb-2024',
+          description: [
+            '<a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">FitnessUY<a/> es un ecommerce de ropa deportiva dirigido principalmente al público uruguayo.',
+
+            'Desarrollo e implemento la interfaz de usuario y la lógica del frontend. Trabajando en conjunto con el equipo de diseño, adapto la aplicación web a las necesidades del cliente. Colaboro estrechamente con el equipo de backend y diseño para llevar un correcto organizamiento de responsabilidades.'
+          ],
+          company: 'LIKA Software',
+          current: true
+        },
+        {
+          job: 'Desarrollador Frontend - Paydrink',
+          dates: 'Ene-2024 / Mar-2024',
+          description: [
+            'Contribuí al desarrollo de <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink<a/>, un marketplace de bebidas para boliches en Argentina. Mi labor consistió en el desarrollo y optimización del código del lado del frontend, lo que permitió la evolución continua del proyecto. ',
+
+            'Trabajé en equipo de manera organizada, lo que nos permitió llevar a cabo el proyecto de manera exitosa.'
+          ],
+          company: 'LIKA Software',
+          current: false
+        },
+        {
           job: 'Freelance Desarrollador ReactJs',
           dates: 'Aug-2023 / Oct-2023',
           description: [
-            'Desarrollo una aplicación web basada en la plantilla de diseño Minimals.cc, adaptándola a las necesidades específicas de los clientes. Implemento la lógica y la interfaz de usuario con React y Material-UI.',
+            'Desarrollé una aplicación web basada en la plantilla de diseño Minimals.cc, adaptándola a las necesidades específicas de los clientes. Implemento la lógica y la interfaz de usuario con React y Material-UI.',
 
             'Integro distintas características al sistema de información que son requeridas desde un dahboard de tareas, utilizando buenas prácticas para obtener un código mantenible con el tiempo.'
           ],
@@ -158,6 +180,28 @@ export const languajes = {
     experience: {
       title: 'Experience',
       data: [
+        {
+          job: 'Frontend Developer - FitnessUY',
+          dates: 'Feb-2024',
+          description: [
+            '<a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">FitnessUY<a/> is an ecommerce for sportswear mainly aimed at the Uruguayan public.',
+
+            'I develop and implement the user interface and frontend logic. Working together with the design team, I adapt the web application to the client`s needs. I collaborate closely with the backend and design team to maintain a correct organization of responsibilities>.'
+          ],
+          company: 'LIKA Software',
+          current: true
+        },
+        {
+          job: 'Frontend Developer - Paydrink',
+          dates: 'Jan-2024 / Mar-2024',
+          description: [
+            'I contributed to the development of <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink<a/>, a beverage marketplace for nightclubs in Argentina. My work consisted of developing and optimizing the code, which allowed for the continuous evolution of the project. ',
+
+            'I worked in an organized team, which allowed us to successfully carry out the project.'
+          ],
+          company: 'LIKA Software',
+          current: false
+        },
         {
           job: 'Freelance ReactJs Developer',
           dates: 'Aug 2023 - Present',
