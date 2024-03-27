@@ -210,7 +210,7 @@ export const languajes = {
             'Integrated various features into the information system required from a task dashboard, utilizing best practices to achieve maintainable code over time.'
           ],
           company: 'GMO Solutions',
-          current: true
+          current: false
         },
         {
           job: 'Software Developer',
