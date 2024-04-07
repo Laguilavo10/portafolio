@@ -37,26 +37,14 @@ export const languajes = {
       title: 'Experiencia',
       data: [
         {
-          job: 'Desarrollador Frontend - FitnessUY',
-          dates: 'Feb-2024',
+          job: 'Desarrollador Frontend',
+          dates: 'Ene-2024',
           description: [
-            '<a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a> es un ecommerce de ropa deportiva dirigido principalmente al público uruguayo.',
-
-            'Desarrollo e implemento la interfaz de usuario y la lógica del frontend. Trabajando en conjunto con el equipo de diseño, adapto la aplicación web a las necesidades del cliente. Colaboro estrechamente con el equipo de backend y diseño para llevar un correcto organizamiento de responsabilidades.'
+            'Desarrollo e implemento soluciones tecnológicas para proyectos de alto nivel y clientes a nivel mundial, utilizando un stack tecnológico centrado en el desarrollo web con React, NextJS, Tailwind, Node y PostgreSQL.',
+            'Trabajo en estrecha colaboración con el equipo de de backend y diseño para asegurar un correcto enfoque y distribución de responsabilidades. He participado en proyectos destacados como: <a href="/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
           ],
           company: 'LIKA Software',
           current: true
-        },
-        {
-          job: 'Desarrollador Frontend - Paydrink',
-          dates: 'Ene-2024 / Mar-2024',
-          description: [
-            'Contribuí al desarrollo de <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, un marketplace de bebidas para boliches en Argentina. Mi labor consistió en el desarrollo y optimización del código del lado del frontend, lo que permitió la evolución continua del proyecto.',
-
-            'Trabajé en equipo de manera organizada, lo que nos permitió llevar a cabo el proyecto de manera exitosa.'
-          ],
-          company: 'LIKA Software',
-          current: false
         },
         {
           job: 'Desarrollador freelance ReactJs',
@@ -181,12 +169,11 @@ export const languajes = {
       title: 'Experience',
       data: [
         {
-          job: 'Frontend Developer - FitnessUY',
-          dates: 'Feb-2024',
+          job: 'Frontend Developer',
+          dates: 'Jan-2024',
           description: [
-            '<a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a> is an ecommerce for sportswear mainly aimed at the Uruguayan public.',
-
-            'I develop and implement the user interface and frontend logic. Working together with the design team, I adapt the web application to the client`s needs. I collaborate closely with the backend and design team to maintain a correct organization of responsibilities>.'
+            'I develop and implement technological solutions for high-level projects and clients worldwide, using a technology stack focused on web development with React, NextJS, Tailwind, Node, and PostgreSQL',
+            'I work closely with the backend and design team to ensure a proper approach and distribution of responsibilities. I have participated in prominent projects such as: <a href="/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
           ],
           company: 'LIKA Software',
           current: true
