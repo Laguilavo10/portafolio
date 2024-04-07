@@ -177,7 +177,7 @@ export const languajes = {
           ],
           company: 'LIKA Software',
           current: true
-        }
+        },
         {
           job: 'Freelance ReactJs Developer',
           dates: 'Aug 2023 - Nov 2023',
