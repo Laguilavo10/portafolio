@@ -177,18 +177,7 @@ export const languajes = {
           ],
           company: 'LIKA Software',
           current: true
-        },
-        {
-          job: 'Frontend Developer - Paydrink',
-          dates: 'Jan-2024 / Mar-2024',
-          description: [
-            'I contributed to the development of <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, a beverage marketplace for nightclubs in Argentina. My work consisted of developing and optimization of the frontend code, which allowed for the continuous evolution of the project. ',
-
-            'I worked in an organized team, which allowed us to successfully carry out the project.'
-          ],
-          company: 'LIKA Software',
-          current: false
-        },
+        }
         {
           job: 'Freelance ReactJs Developer',
           dates: 'Aug 2023 - Nov 2023',
