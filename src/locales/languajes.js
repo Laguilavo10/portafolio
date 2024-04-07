@@ -47,7 +47,7 @@ export const languajes = {
           current: true
         },
         {
-          job: 'Desarrollador freelance ReactJs',
+          job: 'Desarrollador ReactJs',
           dates: 'Aug-2023 / Nov-2023',
           description: [
             'Desarrollé una aplicación web basada en la plantilla de diseño Minimals.cc, adaptándola a las necesidades específicas de los clientes. Implemento la lógica y la interfaz de usuario con React y Material-UI.',
@@ -179,7 +179,7 @@ export const languajes = {
           current: true
         },
         {
-          job: 'Freelance ReactJs Developer',
+          job: 'ReactJs Developer',
           dates: 'Aug 2023 - Nov 2023',
           description: [
             'Developed a web application based on the Minimals.cc design template, adapting it to the specific needs of clients. Implemented logic and user interface using React and Material-UI.',
