@@ -41,7 +41,7 @@ export const languajes = {
           dates: 'Ene-2024',
           description: [
             'Desarrollo e implemento soluciones tecnológicas para proyectos de alto nivel y clientes a nivel mundial, utilizando un stack tecnológico centrado en el desarrollo web con React, NextJS, Tailwind, Node y PostgreSQL.',
-            'Trabajo en estrecha colaboración con el equipo de de backend y diseño para asegurar un correcto enfoque y distribución de responsabilidades. He participado en proyectos destacados como: <a href="/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
+            'Trabajo en estrecha colaboración con el equipo de de backend y diseño para asegurar un correcto enfoque y distribución de responsabilidades. He participado en proyectos destacados como: <a href="https://www.bodaszeta.com/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
           ],
           company: 'LIKA Software',
           current: true
@@ -173,7 +173,7 @@ export const languajes = {
           dates: 'Jan-2024',
           description: [
             'I develop and implement technological solutions for high-level projects and clients worldwide, using a technology stack focused on web development with React, NextJS, Tailwind, Node, and PostgreSQL',
-            'I work closely with the backend and design team to ensure a proper approach and distribution of responsibilities. I have participated in prominent projects such as: <a href="/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
+            'I work closely with the backend and design team to ensure a proper approach and distribution of responsibilities. I have participated in prominent projects such as: <a href="https://www.bodaszeta.com/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
           ],
           company: 'LIKA Software',
           current: true
