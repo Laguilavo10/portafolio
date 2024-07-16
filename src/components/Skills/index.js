@@ -13,7 +13,10 @@ import {
   ReactIcon,
   SQLIcon,
   TailwindIcon,
-  TypescriptIcon
+  TypescriptIcon,
+  AngularIcon,
+  DotNetIcon,
+  CSharpIcon
 } from '@assets/icons'
 import { TitleSection } from '@components/TitleSection'
 import { useLanguaje } from 'context/useLanguaje'
@@ -92,8 +95,25 @@ const Stack = [
   },
   {
     name: 'MongoDB',
-    className: '[&>svg>circle]:hover:!fill-[#13AA52] [&>svg>path]:hover:!fill-[#FFFFFF]',
+    className:
+      '[&>svg>circle]:hover:!fill-[#13AA52] [&>svg>path]:hover:!fill-[#FFFFFF]',
     icon: <MongoDBIcon height='70' width='70' />
+  },
+  {
+    name: 'Angular',
+    className:
+      '[&>svg>g]:hover:fill-[#c3002f] [&>svg>use]:hover:fill-[#dd0031]',
+    icon: <AngularIcon height='70' width='70' />
+  },
+  {
+    name: 'C#',
+    className:
+      '[&>svg>path:first-child]:hover:fill-[#a179dc] [&>svg>path:nth-child(2)]:hover:fill-[#280068] [&>svg>path:nth-child(3)]:hover:fill-[#390091] [&>svg>*:last-child]:hover:fill-white',
+    icon: <CSharpIcon height='70' width='70' />
+  },
+  {
+    name: '.NET',
+    icon: <DotNetIcon height='70' width='70' />
   }
 ]
 export function Skills() {
