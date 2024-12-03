@@ -95,9 +95,9 @@ export const languajes = {
             'E-commerce desarrollado con NextJS y la API de Platzi Fake Store. </br></br>Proporciona datos ficticios de productos para la simulacion de un tienda virtual, filtrando por cateforias de productos y más.'
         },
         {
-          title: 'Cinema Data',
+          title: 'Compuertas Lógicas',
           description:
-            'Plataforma para explorar películas, los usuarios pueden encontrar una amplia selección de películas organizadas por género, tendencias, ademas.</br></br> Proyecto usando React y la API de The Movie Database.'
+            'Herramienta interactiva para el aprendizaje  de compuertas lógicas y sus tablas de verdad. </br></br> La aplicación permite a los usuarios ingresar ecuaciones lógicas, generar tablas de verdad, y visualizar mapas de Karnaugh.'
         },
         {
           title: 'Pokedex',
@@ -223,9 +223,9 @@ export const languajes = {
             'E-commerce developed with Next.js and the Platzi Fake Store API. </br></br> Provides fictional product data for the simulation of a virtual store, filtering by product categories and more.'
         },
         {
-          title: 'Cinema Data',
+          title: 'Logic Gates',
           description:
-            'Platform for exploring movies, where users can find a wide selection of movies organized by genre, trends, and more.</br></br> This project is built using React and The Movie Database API.'
+            'Interactive tool for learning logic gates and their truth tables. </br></br> The application allows users to enter logical equations, generate truth tables, and visualize Karnaugh maps.'
         },
         {
           title: 'Pokedex',

@@ -1,10 +1,10 @@
 import { CardProject } from '@components/CardProject'
 import { TitleSection } from '@components/TitleSection'
-import cine from '../../../public/moviesInfo.jpeg'
 import costManager from '../../../public/cost-manager.jpeg'
 import cakeshop from '../../../public/cakeshop.jpeg'
 import certifications from '../../../public/certifications.jpeg'
 import yardsale from '../../../public/yarsale.jpeg'
+import logicGates from '../../../public/logic-gates.jpeg'
 import SI from '../../../public/SI.jpeg'
 import { useLanguaje } from 'context/useLanguaje'
 import { GlowCapture } from '@codaworks/react-glow'
@@ -54,10 +54,10 @@ export function Projects() {
     },
     {
       title: lang.projects.data[2].title,
-      img: cine.src,
-      labels: ['React', 'CSS'],
-      repo: 'https://github.com/Laguilavo10/WebMovies',
-      url: 'https://laguilavo10.github.io/WebMovies/',
+      img: logicGates.src,
+      labels: ['NextJS', 'Tailwind', 'TypeScript'],
+      repo: 'https://github.com/Laguilavo10/Compuertas-logicas',
+      url: 'https://compuertas-logicas.vercel.app/',
       description: lang.projects.data[2].description,
       styles: 'glow:bg-yellow-400/20',
       color: 'yellow'
