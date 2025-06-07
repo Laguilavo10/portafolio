@@ -37,14 +37,24 @@ export const languajes = {
       title: 'Experiencia',
       data: [
         {
-          job: 'Desarrollador Frontend',
-          dates: 'Ene-2024',
+          job: 'Summer Student - Programador',
+          dates: 'Mar-2025',
           description: [
-            'Desarrollo e implemento soluciones tecnológicas para proyectos de alto nivel y clientes a nivel mundial, utilizando un stack tecnológico centrado en el desarrollo web con React, NextJS, Tailwind, Node y PostgreSQL.',
-            'Trabajo en estrecha colaboración con el equipo de de backend y diseño para asegurar un correcto enfoque y distribución de responsabilidades. He participado en proyectos destacados como: <a href="https://www.bodaszeta.com/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
+            'Implemento automatizaciones para optimizar procesos internos mediante el uso de Python. Estas soluciones han permitido reducir tiempos operativos y mejorar la precisión en tareas repetitivas relacionadas con el manejo de datos.',
+            'Apoyo la gestión de información mediante herramientas como Excel, Power BI y scripts que extraen, procesan y consolidan datos de diversas plataformas, aportando a una toma de decisiones más ágil y eficiente.'
+          ],
+          company: 'Scotiabank',
+          current: true
+        },
+        {
+          job: 'Desarrollador Frontend',
+          dates: 'Ene-2024 / Feb-2025',
+          description: [
+            'Desarrollé e implementé soluciones tecnológicas para proyectos de alto nivel y clientes a nivel mundial, utilizando un stack tecnológico centrado en el desarrollo web con React, NextJS, Tailwind, Node y PostgreSQL.',
+            'Trabajé en estrecha colaboración con el equipo de de backend y diseño para asegurar un correcto enfoque y distribución de responsabilidades. He participado en proyectos destacados como: <a href="https://www.bodaszeta.com/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
           ],
           company: 'LIKA Software',
-          current: true
+          current: false
         },
         {
           job: 'Desarrollador ReactJs',
@@ -169,14 +179,24 @@ export const languajes = {
       title: 'Experience',
       data: [
         {
-          job: 'Frontend Developer',
-          dates: 'Jan-2024',
+          job: 'Summer Student - Developer',
+          dates: 'Mar-2025',
           description: [
-            'I develop and implement technological solutions for high-level projects and clients worldwide, using a technology stack focused on web development with React, NextJS, Tailwind, Node, and PostgreSQL',
-            'I work closely with the backend and design team to ensure a proper approach and distribution of responsibilities. I have participated in prominent projects such as: <a href="https://www.bodaszeta.com/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
+            'I implement automations to optimize internal processes using Python. These solutions have helped reduce operational times and improve accuracy in repetitive tasks related to data handling.',
+            'I support information management through tools like Excel, Power BI, and scripts that extract, process, and consolidate data from various platforms, contributing to faster and more efficient decision-making.'
+          ],
+          company: 'Scotiabank',
+          current: true
+        },
+        {
+          job: 'Frontend Developer',
+          dates: 'Jan-2024 / Feb-2025',
+          description: [
+            'I developed and implemented technological solutions for high-level projects and clients worldwide, using a technology stack focused on web development with React, NextJS, Tailwind, Node, and PostgreSQL',
+            'I worked closely with the backend and design team to ensure a proper approach and distribution of responsibilities. I have participated in prominent projects such as: <a href="https://www.bodaszeta.com/" class="underline text-blue-500 visited:text-purple-500">Bodas Zeta</a>, <a href="https://fitness-uy.vercel.app/" class="underline text-blue-500 visited:text-purple-500">FitnessUY</a>, <a href="https://www.paydrinkapp.com/" class="underline text-blue-500 visited:text-purple-500">Paydrink</a>, <a href="https://www.barilocherentaboat.com/" class="underline text-blue-500 visited:text-purple-500">Rent-a-boat</a>, etc...'
           ],
           company: 'LIKA Software',
-          current: true
+          current: false
         },
         {
           job: 'ReactJs Developer',
