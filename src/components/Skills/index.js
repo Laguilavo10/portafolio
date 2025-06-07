@@ -17,7 +17,8 @@ import {
   AngularIcon,
   DotNetIcon,
   CSharpIcon,
-  DockerIcon
+  DockerIcon,
+  JavaIcon
 } from '@assets/icons'
 import { TitleSection } from '@components/TitleSection'
 import { useLanguaje } from 'context/useLanguaje'
@@ -120,6 +121,11 @@ const Stack = [
     name: 'Docker',
     icon: <DockerIcon height='70' width='70' />,
     className: '[&>svg]:hover:fill-[#008fe2]'
+  },
+  {
+    name: 'Java',
+    icon: <JavaIcon height='70' width='70' />,
+    className: '[&>svg>path]:hover:fill-[#F44336] [&>svg>g>path]:hover:fill-[#1565C0]'
   }
 ]
 export function Skills() {
