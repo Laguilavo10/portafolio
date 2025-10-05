@@ -14,7 +14,7 @@ export function AboutMe() {
             width='1000'
             height='1000'
             className='aspect-square w-72 rounded-lg object-cover lg:absolute lg:left-10 xl:w-96'
-            alt='Andres Laguilavo'
+            alt='Foto de perfil de Andrés Laguilavo — Desarrollador de software'
           />
           <div className='col-span-4 col-start-3 flex flex-col items-center gap-4'>
             <TitleSection>{lang.aboutMe.title}</TitleSection>
