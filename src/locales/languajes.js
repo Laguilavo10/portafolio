@@ -37,14 +37,24 @@ export const languajes = {
       title: 'Experiencia',
       data: [
         {
-          job: 'Summer Student - Programador',
-          dates: 'Mar-2025',
+          job: 'Desarrollador',
+          dates: 'Sep 2025',
           description: [
-            'Implemento automatizaciones para optimizar procesos internos mediante el uso de Python. Estas soluciones han permitido reducir tiempos operativos y mejorar la precisión en tareas repetitivas relacionadas con el manejo de datos.',
-            'Apoyo la gestión de información mediante herramientas como Excel, Power BI y scripts que extraen, procesan y consolidan datos de diversas plataformas, aportando a una toma de decisiones más ágil y eficiente.'
+            'Desarrollo la nueva interfaz principal de la empresa, implementando componentes modulares y reutilizables con React, TypeScript y TailwindCSS para lograr una experiencia moderna y eficiente.',
+            'Integro la interfaz con APIs REST en Go y Python, gestiono despliegues con Docker y Nginx, y colaboro con equipos ágiles para optimizar el rendimiento, la seguridad y la disponibilidad del producto.'
+          ],
+          company: 'GTC Ingeniería',
+          current: true
+        },
+        {
+          job: 'Summer Student - Programador',
+          dates: 'Mar-2025 / Sep-2025',
+          description: [
+            'Implemento automatizaciones para optimizar procesos internos mediante el uso de Python. Estas soluciones permitieron reducir tiempos operativos y mejorar la precisión en tareas repetitivas relacionadas con el manejo de datos.',
+            'Apoyé la gestión de información mediante herramientas como Excel, Power BI y scripts que extraen, procesan y consolidan datos de diversas plataformas, aportando a una toma de decisiones más ágil y eficiente.'
           ],
           company: 'Scotiabank',
-          current: true
+          current: false
         },
         {
           job: 'Desarrollador Frontend',
@@ -56,17 +66,17 @@ export const languajes = {
           company: 'LIKA Software',
           current: false
         },
-        {
-          job: 'Desarrollador ReactJs',
-          dates: 'Aug-2023 / Nov-2023',
-          description: [
-            'Desarrollé una aplicación web basada en la plantilla de diseño Minimals.cc, adaptándola a las necesidades específicas de los clientes. Implemento la lógica y la interfaz de usuario con React y Material-UI.',
+        // {
+        //   job: 'Desarrollador ReactJs',
+        //   dates: 'Aug-2023 / Nov-2023',
+        //   description: [
+        //     'Desarrollé una aplicación web basada en la plantilla de diseño Minimals.cc, adaptándola a las necesidades específicas de los clientes. Implemento la lógica y la interfaz de usuario con React y Material-UI.',
 
-            'Integro distintas características al sistema de información que son requeridas desde un dahboard de tareas, utilizando buenas prácticas para obtener un código mantenible con el tiempo.'
-          ],
-          company: 'GMO Solutions',
-          current: false
-        },
+        //     'Integro distintas características al sistema de información que son requeridas desde un dahboard de tareas, utilizando buenas prácticas para obtener un código mantenible con el tiempo.'
+        //   ],
+        //   company: 'GMO Solutions',
+        //   current: false
+        // },
         {
           job: 'Desarrollador de Software',
           dates: 'Mar-2022 / May-2023',
@@ -179,14 +189,24 @@ export const languajes = {
       title: 'Experience',
       data: [
         {
-          job: 'Summer Student - Developer',
-          dates: 'Mar-2025',
+          job: 'Developer',
+          dates: 'Sep 2025',
           description: [
-            'I implement automations to optimize internal processes using Python. These solutions have helped reduce operational times and improve accuracy in repetitive tasks related to data handling.',
-            'I support information management through tools like Excel, Power BI, and scripts that extract, process, and consolidate data from various platforms, contributing to faster and more efficient decision-making.'
+            'I develop the company’s main user interface, implementing modular and reusable components with React, TypeScript, and TailwindCSS to deliver a modern and efficient experience.',
+            'I integrate the interface with REST APIs in Go and Python, manage deployments with Docker and Nginx, and collaborate with agile teams to optimize performance, security, and product availability.'
+          ],
+          company: 'GTC Ingeniería',
+          current: true
+        },
+        {
+          job: 'Summer Student - Developer',
+          dates: 'Mar-2025 / Sep-2025',
+          description: [
+            'I implement automations to optimize internal processes using Python. These solutions reduced operational times and improved accuracy in repetitive data-related tasks.',
+            'I supported information management using tools like Excel, Power BI, and scripts to extract, process, and consolidate data from various platforms, enabling more agile and efficient decision-making.'
           ],
           company: 'Scotiabank',
-          current: true
+          current: false
         },
         {
           job: 'Frontend Developer',
@@ -198,16 +218,16 @@ export const languajes = {
           company: 'LIKA Software',
           current: false
         },
-        {
-          job: 'ReactJs Developer',
-          dates: 'Aug 2023 - Nov 2023',
-          description: [
-            'Developed a web application based on the Minimals.cc design template, adapting it to the specific needs of clients. Implemented logic and user interface using React and Material-UI.',
-            'Integrated various features into the information system required from a task dashboard, utilizing best practices to achieve maintainable code over time.'
-          ],
-          company: 'GMO Solutions',
-          current: false
-        },
+        // {
+        //   job: 'ReactJs Developer',
+        //   dates: 'Aug 2023 - Nov 2023',
+        //   description: [
+        //     'Developed a web application based on the Minimals.cc design template, adapting it to the specific needs of clients. Implemented logic and user interface using React and Material-UI.',
+        //     'Integrated various features into the information system required from a task dashboard, utilizing best practices to achieve maintainable code over time.'
+        //   ],
+        //   company: 'GMO Solutions',
+        //   current: false
+        // },
         {
           job: 'Software Developer',
           dates: 'Mar 2022 / May 2023',
