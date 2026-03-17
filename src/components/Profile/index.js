@@ -7,7 +7,6 @@ import { useLanguaje } from 'context/useLanguaje'
 
 export function Profile() {
   const { lang } = useLanguaje()
-  console.log()
   const resumeLink =
     lang.aboutMe.title === 'Sobre Mi'
       ? 'https://drive.google.com/file/d/1VOtnGhdWROxqm6nhvWqHwZxDuBwpRNC4/view'
