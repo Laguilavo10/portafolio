@@ -1,6 +1,6 @@
 import { TitleSection } from '@components/TitleSection'
 import Image from 'next/image'
-import fotoPerfil from '../../../public/foto_perfil_2.jpeg'
+import fotoPerfil from '../../../public/foto_perfil_2.JPEG'
 import { useLanguaje } from 'context/useLanguaje'
 
 export function AboutMe() {
